@@ -287,7 +287,7 @@ function renderCal(){
   body.innerHTML = rows.map(([label, f]) => {
     const wc = "webcal://" + host + "/cal/" + f + ".ics";
     const g = "https://calendar.google.com/calendar/render?cid=" + encodeURIComponent(wc);
-    return `<div class="row"><h3>${esc(label)}</h3><div class="acts"><a href="${esc(g)}" target="_blank" rel="noopener">Googleカレンダーに追加</a><a href="${esc(wc)}">iPhoneのカレンダーに追加</a></div></div>`;
+    return `<div class="row"><h3>${esc(label)}</h3><div class="acts"><a href="${esc(g)}" target="_blank" rel="noopener" data-gc="cal-google-${esc(f)}">Googleカレンダーに追加</a><a href="${esc(wc)}" data-gc="cal-iphone-${esc(f)}">iPhoneのカレンダーに追加</a></div></div>`;
   }).join("") + (rows.length > 1 ? `<p class="hint" style="margin-top:8px">同じグループで複数のメンバーを登録すると、グループ全体の予定は重なって表示されます。箱推しの方は「全員を選ぶ」にすると1つにまとまります。</p>` : "");
 }
 
@@ -436,5 +436,15 @@ renderOshi();
 render();
 setInterval(() => { renderOshi(); render(); }, 30000);
 </script>
+<script>
+// アクセス数の計測（GoatCounter・Cookieなし）。グループ別URL（?g=）はそのまま記録する
+window.goatcounter = { path: function(){ var g = new URLSearchParams(location.search).get("g"); return location.pathname + (g ? "?g=" + g : ""); } };
+// カレンダー登録ボタンの押下をイベントとして記録する
+document.addEventListener("click", function(e){
+  var a = e.target.closest && e.target.closest("a[data-gc]");
+  if (a && window.goatcounter && window.goatcounter.count) window.goatcounter.count({ path: a.dataset.gc, title: a.textContent, event: true });
+});
+</script>
+<script data-goatcounter="https://shimelog.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>
