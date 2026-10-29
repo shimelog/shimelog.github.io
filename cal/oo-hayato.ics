@@ -1,0 +1,277 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//shimelog//JA
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:しめろぐ｜ONE N' ONLY（HAYATO）
+X-WR-TIMEZONE:Asia/Tokyo
+X-WR-CALDESC:公式の告知から拾った締切（非公式）。申し
+ 込む前に必ず公式の告知を確認してください。
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:4c498a8e4f880831a09d@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261028T083000Z
+DTEND:20261028T090000Z
+SUMMARY:【当選発表・抽選】ONE N' ONLY SWAG限定イベント
+DESCRIPTION:MEGA GOLDEN 発売記念 SWAG限定イベント\n1回目 GOLD
+ ENグループショット撮影会・サイン入りトレカA\nイベ
+ ント 2027/1/9(土) 東京\n当落はchordマイページおよびメー
+ ルで通知（18:00頃目安）\n公式の告知：https://one-n-only.jp
+ /contents/1118926\nしめろぐ（非公式）：https://shimelog.github.
+ io
+URL:https://one-n-only.jp/contents/1118926
+END:VEVENT
+BEGIN:VEVENT
+UID:3b073cc03b57cd30d09e@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261030T043000Z
+DTEND:20261030T050000Z
+SUMMARY:【当落発表・抽選】ONE N' ONLY メガホリ
+DESCRIPTION:Merry XmaSWAG 2026 〜メガホリ〜\n『+KIRARI』会員先
+ 行\n公演 12/13(日) 東京国際フォーラム ホールA／12/22(火
+ )・12/23(水) グランキューブ大阪\n抽選結果メールが届
+ かない場合はローソンチケットのマイページで確認\n
+ 公式の告知：https://one-n-only.jp/contents/1119927\nしめろぐ（
+ 非公式）：https://shimelog.github.io
+URL:https://one-n-only.jp/contents/1119927
+END:VEVENT
+BEGIN:VEVENT
+UID:8efc5be84b2c692f4ff5@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261031T142900Z
+DTEND:20261031T145900Z
+SUMMARY:【予約締切】ONE N' ONLY SWAG限定イベント
+DESCRIPTION:MEGA GOLDEN 発売記念 SWAG限定イベント\n2回目 CD
+ 予約（GOLDENグループショット撮影会・サイン入りトレ
+ カA）\nイベント 2027/1/9(土) 東京\nUNIVERSAL MUSIC STOREの「SW
+ AGイベント応募用シリアルナンバー付き」商品のみ対
+ 象・キャンセル不可\n公式の告知：https://one-n-only.jp/cont
+ ents/1118926\nしめろぐ（非公式）：https://shimelog.github.io
+URL:https://one-n-only.jp/contents/1118926
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【予約締切】ONE N' ONLY SWAG限定イベント
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:1e00747f88e11919ae61@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261102T142900Z
+DTEND:20261102T145900Z
+SUMMARY:【入金締切・抽選】ONE N' ONLY メガホリ
+DESCRIPTION:Merry XmaSWAG 2026 〜メガホリ〜\n『+KIRARI』会員先
+ 行\n公演 12/13(日) 東京国際フォーラム ホールA／12/22(火
+ )・12/23(水) グランキューブ大阪\n抽選結果メールが届
+ かない場合はローソンチケットのマイページで確認\n
+ 公式の告知：https://one-n-only.jp/contents/1119927\nしめろぐ（
+ 非公式）：https://shimelog.github.io
+URL:https://one-n-only.jp/contents/1119927
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【入金締切・抽選】ONE N' ONLY メガホリ
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:64d12491f275474994a5@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261102T142900Z
+DTEND:20261102T145900Z
+SUMMARY:【販売締切】ONE N' ONLY EBiDANくじ vol.2
+DESCRIPTION:EBiDAN オンラインくじ vol.2\nグループ別オンラ
+ インくじ\n1回800円（税込）、販売期間中であればいつ
+ でも購入できる\n公式の告知：https://one-n-only.jp/contents/1
+ 121508\nしめろぐ（非公式）：https://shimelog.github.io
+URL:https://one-n-only.jp/contents/1121508
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【販売締切】ONE N' ONLY EBiDANくじ vol.2
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e4268bfd88cd616530cf@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261106T142900Z
+DTEND:20261106T145900Z
+SUMMARY:【応募締切・抽選】ONE N' ONLY SWAG限定イベント
+DESCRIPTION:MEGA GOLDEN 発売記念 SWAG限定イベント\n2回目 GOLD
+ ENグループショット撮影会・サイン入りトレカA\nイベ
+ ント 2027/1/9(土) 東京\nシリアルナンバーは予約した回
+ の応募期間内のみ使用可\n公式の告知：https://one-n-only.j
+ p/contents/1118926\nしめろぐ（非公式）：https://shimelog.github
+ .io
+URL:https://one-n-only.jp/contents/1118926
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【応募締切・抽選】ONE N' ONLY SWAG限定イベント
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:954d6a49971b1fb43268@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261108T142900Z
+DTEND:20261108T145900Z
+SUMMARY:【予約締切】ONE N' ONLY SWAG限定イベント
+DESCRIPTION:MEGA GOLDEN 発売記念 SWAG限定イベント\n3回目 CD
+ 予約（ゴルサン金メダル授与式・サイン入りトレカB）
+ \nイベント 2027/1/9(土) 東京\nUNIVERSAL MUSIC STOREの「SWAGイ
+ ベント応募用シリアルナンバー付き」商品のみ対象・
+ キャンセル不可\n公式の告知：https://one-n-only.jp/contents/1
+ 118926\nしめろぐ（非公式）：https://shimelog.github.io
+URL:https://one-n-only.jp/contents/1118926
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【予約締切】ONE N' ONLY SWAG限定イベント
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:74ada152ce4cbd613a44@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261111T083000Z
+DTEND:20261111T090000Z
+SUMMARY:【当選発表・抽選】ONE N' ONLY SWAG限定イベント
+DESCRIPTION:MEGA GOLDEN 発売記念 SWAG限定イベント\n2回目 GOLD
+ ENグループショット撮影会・サイン入りトレカA\nイベ
+ ント 2027/1/9(土) 東京\n当落はchordマイページおよびメー
+ ルで通知（18:00頃目安）\n公式の告知：https://one-n-only.jp
+ /contents/1118926\nしめろぐ（非公式）：https://shimelog.github.
+ io
+URL:https://one-n-only.jp/contents/1118926
+END:VEVENT
+BEGIN:VEVENT
+UID:78a77e20dcc6744cd5f1@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261112T142900Z
+DTEND:20261112T145900Z
+SUMMARY:【応募締切・抽選】ONE N' ONLY SWAG限定イベント
+DESCRIPTION:MEGA GOLDEN 発売記念 SWAG限定イベント\n3回目 ゴ
+ ルサン金メダル授与式・サイン入りトレカB\nイベント 
+ 2027/1/9(土) 東京\n応募時にメンバーを選択・シリアルナ
+ ンバーは予約した回の応募期間内のみ使用可\n公式の
+ 告知：https://one-n-only.jp/contents/1118926\nしめろぐ（非公式
+ ）：https://shimelog.github.io
+URL:https://one-n-only.jp/contents/1118926
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【応募締切・抽選】ONE N' ONLY SWAG限定イベント
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:43bdcde7fae33e1eed86@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261117T083000Z
+DTEND:20261117T090000Z
+SUMMARY:【当選発表・抽選】ONE N' ONLY SWAG限定イベント
+DESCRIPTION:MEGA GOLDEN 発売記念 SWAG限定イベント\n3回目 ゴ
+ ルサン金メダル授与式・サイン入りトレカB\nイベント 
+ 2027/1/9(土) 東京\n当落はchordマイページおよびメールで
+ 通知（18:00頃目安）\n公式の告知：https://one-n-only.jp/conte
+ nts/1118926\nしめろぐ（非公式）：https://shimelog.github.io
+URL:https://one-n-only.jp/contents/1118926
+END:VEVENT
+BEGIN:VEVENT
+UID:063be6114b0ef14c836f@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261119T142900Z
+DTEND:20261119T145900Z
+SUMMARY:【予約締切】ONE N' ONLY SWAG限定イベント
+DESCRIPTION:MEGA GOLDEN 発売記念 SWAG限定イベント\n4回目 CD
+ 予約（ゴルサン金メダル授与式・サイン入りトレカB）
+ \nイベント 2027/1/9(土) 東京\nUNIVERSAL MUSIC STOREの「SWAGイ
+ ベント応募用シリアルナンバー付き」商品のみ対象・
+ キャンセル不可\n公式の告知：https://one-n-only.jp/contents/1
+ 118926\nしめろぐ（非公式）：https://shimelog.github.io
+URL:https://one-n-only.jp/contents/1118926
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【予約締切】ONE N' ONLY SWAG限定イベント
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e95cf1ef2bd1eb65ff38@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261126T142900Z
+DTEND:20261126T145900Z
+SUMMARY:【応募締切・抽選】ONE N' ONLY SWAG限定イベント
+DESCRIPTION:MEGA GOLDEN 発売記念 SWAG限定イベント\n4回目 ゴ
+ ルサン金メダル授与式・サイン入りトレカB\nイベント 
+ 2027/1/9(土) 東京\n応募時にメンバーを選択・シリアルナ
+ ンバーは予約した回の応募期間内のみ使用可\n公式の
+ 告知：https://one-n-only.jp/contents/1118926\nしめろぐ（非公式
+ ）：https://shimelog.github.io
+URL:https://one-n-only.jp/contents/1118926
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【応募締切・抽選】ONE N' ONLY SWAG限定イベント
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:acc915f64dbd33597854@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:【特典締切】ONE N' ONLY EBiDAN 15周年BD＆本
+DESCRIPTION:Blu-ray『EBiDAN THE LIVE 2026 15th Anniversary』＆『EBiDA
+ N Visual Dictionary 2027』\nBlu-ray 早期予約特典（選べるグル
+ ープ別トレカ）\n12/1以降も規定数に達するまで先着で
+ 配布。希望グループの対象カートから注文\n公式の告
+ 知：https://one-n-only.jp/contents/1122915\nしめろぐ（非公式）
+ ：https://shimelog.github.io
+URL:https://one-n-only.jp/contents/1122915
+END:VEVENT
+BEGIN:VEVENT
+UID:00e30496e0d94b424598@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261201T083000Z
+DTEND:20261201T090000Z
+SUMMARY:【当選発表・抽選】ONE N' ONLY SWAG限定イベント
+DESCRIPTION:MEGA GOLDEN 発売記念 SWAG限定イベント\n4回目 ゴ
+ ルサン金メダル授与式・サイン入りトレカB\nイベント 
+ 2027/1/9(土) 東京\n当落はchordマイページおよびメールで
+ 通知（18:00頃目安）\n公式の告知：https://one-n-only.jp/conte
+ nts/1118926\nしめろぐ（非公式）：https://shimelog.github.io
+URL:https://one-n-only.jp/contents/1118926
+END:VEVENT
+BEGIN:VEVENT
+UID:15bd4cd8ff8156ebeb97@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261221T142900Z
+DTEND:20261221T145900Z
+SUMMARY:【販売締切】ONE N' ONLY EBiDAN 15周年BD＆本
+DESCRIPTION:Blu-ray『EBiDAN THE LIVE 2026 15th Anniversary』＆『EBiDA
+ N Visual Dictionary 2027』\nソロ表紙風メンバー別アクリル
+ キーホルダーセット（受注生産・税込6\,050円）\n全額
+ 内金で注文する受注生産限定商品\n公式の告知：https://
+ one-n-only.jp/contents/1122915\nしめろぐ（非公式）：https://shi
+ melog.github.io
+URL:https://one-n-only.jp/contents/1122915
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【販売締切】ONE N' ONLY EBiDAN 15周年BD＆本
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:211780f63de6bd746bf0@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART;VALUE=DATE:20270210
+DTEND;VALUE=DATE:20270211
+SUMMARY:【発売日】ONE N' ONLY EBiDAN 15周年BD＆本
+DESCRIPTION:Blu-ray『EBiDAN THE LIVE 2026 15th Anniversary』＆『EBiDA
+ N Visual Dictionary 2027』\n＠Loppi・HMV限定盤 Blu-ray（税込8\,8
+ 00円）／Visual Dictionary（税込4\,950円）\n＠Loppi・HMV店舗
+ ・HMV&BOOKS online限定。両方同時購入でB5クリアファイル
+ （グループ別）\n公式の告知：https://one-n-only.jp/contents/1
+ 122915\nしめろぐ（非公式）：https://shimelog.github.io
+URL:https://one-n-only.jp/contents/1122915
+END:VEVENT
+END:VCALENDAR

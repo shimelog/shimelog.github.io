@@ -1,0 +1,419 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//shimelog//JA
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:しめろぐ｜SUPER★DRAGON（柴崎楽）
+X-WR-TIMEZONE:Asia/Tokyo
+X-WR-CALDESC:公式の告知から拾った締切（非公式）。申し
+ 込む前に必ず公式の告知を確認してください。
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:65d064ff0525ee70b62e@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261029T142900Z
+DTEND:20261029T145900Z
+SUMMARY:【申込締切・抽選】SUPER★DRAGON STAR リリイベ横浜
+DESCRIPTION:STAR リリースイベント KT Zepp Yokohama（神奈川）
+ \nスペシャルライブ 前方指定座席エリア（AREA SD会員限
+ 定）\nイベント 12/3(木) KT Zepp Yokohama\n通常盤2枚＋初回
+ 限定盤1枚のセット予約購入が対象、カート購入上限1
+ 口。ハイタッチ会参加券付き\n公式の告知：https://super-
+ dragon.jp/news/news11872/\nしめろぐ（非公式）：https://shimelog
+ .github.io
+URL:https://super-dragon.jp/news/news11872/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【申込締切・抽選】SUPER★DRAGON STAR リリイベ
+ 横浜
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:9214a0068641703be83c@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:【配信開始】SUPER★DRAGON 本能
+DESCRIPTION:新曲「本能」\n公式の告知：https://super-dragon.jp
+ /news/news11862/\nしめろぐ（非公式）：https://shimelog.github.i
+ o
+URL:https://super-dragon.jp/news/news11862/
+END:VEVENT
+BEGIN:VEVENT
+UID:79fa4e6eeacf82ac7455@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261101T142900Z
+DTEND:20261101T145900Z
+SUMMARY:【申込締切・抽選】SUPER★DRAGON STAR リリイベ福岡
+DESCRIPTION:STAR リリースイベント UNITEDLAB（福岡）\nスペ
+ シャルライブ 優先観覧立見エリア\nイベント 11/28(土) U
+ NITEDLAB\n通常盤1枚の予約購入者が対象、カート購入上
+ 限1口\n公式の告知：https://super-dragon.jp/news/news11829/\nし
+ めろぐ（非公式）：https://shimelog.github.io
+URL:https://super-dragon.jp/news/news11829/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【申込締切・抽選】SUPER★DRAGON STAR リリイベ
+ 福岡
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:8d329d46a0dc0c210409@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261101T142900Z
+DTEND:20261101T145900Z
+SUMMARY:【申込締切・抽選】SUPER★DRAGON LIVE TOUR 2027「house
+DESCRIPTION:SUPER★DRAGON LIVE TOUR 2027「house」\n『+KIRARI』会員
+ 先行\n公演 2027/2/6(土)〜5/5(水祝) 愛知・福岡・大阪・神
+ 奈川\n申込代表者がSUPER★DRAGONメンバーいずれかの『+KI
+ RARI』会員であることが条件\n公式の告知：https://super-dr
+ agon.jp/news/news11815/\nしめろぐ（非公式）：https://shimelog.g
+ ithub.io
+URL:https://super-dragon.jp/news/news11815/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【申込締切・抽選】SUPER★DRAGON LIVE TOUR 2027「ho
+ use
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:0b26f8a09247478c18d4@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:【当落発表・抽選】SUPER★DRAGON STAR リリイベ横浜
+DESCRIPTION:STAR リリースイベント KT Zepp Yokohama（神奈川）
+ \nスペシャルライブ 前方指定座席エリア（AREA SD会員限
+ 定）\nイベント 12/3(木) KT Zepp Yokohama\n夕方以降にメール
+ で案内。落選の場合は予約購入を自動キャンセル\n公
+ 式の告知：https://super-dragon.jp/news/news11872/\nしめろぐ（
+ 非公式）：https://shimelog.github.io
+URL:https://super-dragon.jp/news/news11872/
+END:VEVENT
+BEGIN:VEVENT
+UID:a0bd6f70d7491892c7ad@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261102T142900Z
+DTEND:20261102T145900Z
+SUMMARY:【販売締切】SUPER★DRAGON EBiDANオンラインくじ
+DESCRIPTION:EBiDAN オンラインくじ vol.2\n1回800円（税込）\n
+ 公式の告知：https://super-dragon.jp/news/news11856/\nしめろぐ
+ （非公式）：https://shimelog.github.io
+URL:https://super-dragon.jp/news/news11856/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【販売締切】SUPER★DRAGON EBiDANオンラインくじ
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d00bc342dbc455e665b9@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:【当落発表・抽選】SUPER★DRAGON STAR リリイベ福岡
+DESCRIPTION:STAR リリースイベント UNITEDLAB（福岡）\nスペ
+ シャルライブ 優先観覧立見エリア\nイベント 11/28(土) U
+ NITEDLAB\n夕方以降にメールで案内\n公式の告知：https://su
+ per-dragon.jp/news/news11829/\nしめろぐ（非公式）：https://shim
+ elog.github.io
+URL:https://super-dragon.jp/news/news11829/
+END:VEVENT
+BEGIN:VEVENT
+UID:19c158534554cc271fe6@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261107T043000Z
+DTEND:20261107T050000Z
+SUMMARY:【当落発表・抽選】SUPER★DRAGON LIVE TOUR 2027「house
+DESCRIPTION:SUPER★DRAGON LIVE TOUR 2027「house」\n『+KIRARI』会員
+ 先行\n公演 2027/2/6(土)〜5/5(水祝) 愛知・福岡・大阪・神
+ 奈川\n当落・入金期間は11/10(火)23:59まで\n公式の告知：
+ https://super-dragon.jp/news/news11815/\nしめろぐ（非公式）：ht
+ tps://shimelog.github.io
+URL:https://super-dragon.jp/news/news11815/
+END:VEVENT
+BEGIN:VEVENT
+UID:79571c84e6a2c37bde6c@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261108T142900Z
+DTEND:20261108T145900Z
+SUMMARY:【申込締切・抽選】SUPER★DRAGON STAR リリイベ横浜
+DESCRIPTION:STAR リリースイベント KT Zepp Yokohama（神奈川）
+ \nスペシャルライブ 優先指定座席エリア\nイベント 12/3
+ (木) KT Zepp Yokohama\n通常盤1枚の予約購入者が対象、カー
+ ト購入上限1口\n公式の告知：https://super-dragon.jp/news/news1
+ 1872/\nしめろぐ（非公式）：https://shimelog.github.io
+URL:https://super-dragon.jp/news/news11872/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【申込締切・抽選】SUPER★DRAGON STAR リリイベ
+ 横浜
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4b51400a759a71ad5083@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261109T142900Z
+DTEND:20261109T145900Z
+SUMMARY:【応募締切・抽選】SUPER★DRAGON STAR リリイベ福岡
+DESCRIPTION:STAR リリースイベント UNITEDLAB（福岡）\nスペ
+ シャルライブ 後方無料招待エリア\nイベント 11/28(土) U
+ NITEDLAB\n対象MVを完視聴してエントリー、楽天会員登録
+ が必須\n公式の告知：https://super-dragon.jp/news/news11829/\nし
+ めろぐ（非公式）：https://shimelog.github.io
+URL:https://super-dragon.jp/news/news11829/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【応募締切・抽選】SUPER★DRAGON STAR リリイベ
+ 福岡
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:53d9d1e5abf775da757f@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:【当落発表・抽選】SUPER★DRAGON STAR リリイベ横浜
+DESCRIPTION:STAR リリースイベント KT Zepp Yokohama（神奈川）
+ \nスペシャルライブ 優先指定座席エリア\nイベント 12/3
+ (木) KT Zepp Yokohama\n夕方以降にメールで案内\n公式の告
+ 知：https://super-dragon.jp/news/news11872/\nしめろぐ（非公式
+ ）：https://shimelog.github.io
+URL:https://super-dragon.jp/news/news11872/
+END:VEVENT
+BEGIN:VEVENT
+UID:3f345e8bbb2a8e5268c4@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261110T142900Z
+DTEND:20261110T145900Z
+SUMMARY:【入金締切・抽選】SUPER★DRAGON LIVE TOUR 2027「house
+DESCRIPTION:SUPER★DRAGON LIVE TOUR 2027「house」\n『+KIRARI』会員
+ 先行\n公演 2027/2/6(土)〜5/5(水祝) 愛知・福岡・大阪・神
+ 奈川\n公式の告知：https://super-dragon.jp/news/news11815/\nしめ
+ ろぐ（非公式）：https://shimelog.github.io
+URL:https://super-dragon.jp/news/news11815/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【入金締切・抽選】SUPER★DRAGON LIVE TOUR 2027「ho
+ use
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e87ed26fdf0205ad7a15@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:【当選発表・抽選】SUPER★DRAGON STAR リリイベ福岡
+DESCRIPTION:STAR リリースイベント UNITEDLAB（福岡）\nスペ
+ シャルライブ 後方無料招待エリア\nイベント 11/28(土) U
+ NITEDLAB\n夕方以降にメールで案内\n公式の告知：https://su
+ per-dragon.jp/news/news11829/\nしめろぐ（非公式）：https://shim
+ elog.github.io
+URL:https://super-dragon.jp/news/news11829/
+END:VEVENT
+BEGIN:VEVENT
+UID:2e90a1e2e627087f71bb@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261116T142900Z
+DTEND:20261116T145900Z
+SUMMARY:【応募締切・抽選】SUPER★DRAGON STAR リリイベ横浜
+DESCRIPTION:STAR リリースイベント KT Zepp Yokohama（神奈川）
+ \nスペシャルライブ 後方無料招待エリア\nイベント 12/3
+ (木) KT Zepp Yokohama\n対象MVを完視聴してエントリー、楽
+ 天会員登録が必須\n公式の告知：https://super-dragon.jp/news/
+ news11872/\nしめろぐ（非公式）：https://shimelog.github.io
+URL:https://super-dragon.jp/news/news11872/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【応募締切・抽選】SUPER★DRAGON STAR リリイベ
+ 横浜
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bb08313d44594bc2493b@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:【当選発表・抽選】SUPER★DRAGON STAR リリイベ横浜
+DESCRIPTION:STAR リリースイベント KT Zepp Yokohama（神奈川）
+ \nスペシャルライブ 後方無料招待エリア\nイベント 12/3
+ (木) KT Zepp Yokohama\n夕方以降にメールで案内\n公式の告
+ 知：https://super-dragon.jp/news/news11872/\nしめろぐ（非公式
+ ）：https://shimelog.github.io
+URL:https://super-dragon.jp/news/news11872/
+END:VEVENT
+BEGIN:VEVENT
+UID:0dce07df9ef385087b2f@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261126T120000Z
+DTEND:20261126T123000Z
+SUMMARY:【販売開始】SUPER★DRAGON STAR リリイベ福岡
+DESCRIPTION:STAR リリースイベント UNITEDLAB（福岡）\n特典
+ 会参加券付きCD事前予約（楽天ブックス）\nイベント 11
+ /28(土) UNITEDLAB\n当日朝9時まではカート購入上限2口、参
+ 加券付き商品は無くなり次第終了\n公式の告知：https://
+ super-dragon.jp/news/news11829/\nしめろぐ（非公式）：https://sh
+ imelog.github.io
+URL:https://super-dragon.jp/news/news11829/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【販売開始】SUPER★DRAGON STAR リリイベ福岡
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e3a99eef71703b740efb@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261128T070000Z
+DTEND:20261128T073000Z
+SUMMARY:【販売締切】SUPER★DRAGON STAR リリイベ福岡
+DESCRIPTION:STAR リリースイベント UNITEDLAB（福岡）\n特典
+ 会参加券付きCD事前予約 個別ミート＆グリート\nイベ
+ ント 11/28(土) UNITEDLAB\n参加券付き商品は無くなり次第
+ 終了\n公式の告知：https://super-dragon.jp/news/news11829/\nしめ
+ ろぐ（非公式）：https://shimelog.github.io
+URL:https://super-dragon.jp/news/news11829/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【販売締切】SUPER★DRAGON STAR リリイベ福岡
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c359e5898a8c8fe5d8db@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261128T083000Z
+DTEND:20261128T090000Z
+SUMMARY:【販売締切】SUPER★DRAGON STAR リリイベ福岡
+DESCRIPTION:STAR リリースイベント UNITEDLAB（福岡）\n特典
+ 会参加券付きCD事前予約 グループショット撮影会\nイ
+ ベント 11/28(土) UNITEDLAB\n参加券付き商品は無くなり次
+ 第終了\n公式の告知：https://super-dragon.jp/news/news11829/\nし
+ めろぐ（非公式）：https://shimelog.github.io
+URL:https://super-dragon.jp/news/news11829/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【販売締切】SUPER★DRAGON STAR リリイベ福岡
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:487849650ea0e0ed5e67@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:【特典締切】SUPER★DRAGON EBiDAN 15周年BD＆本
+DESCRIPTION:Blu-ray『EBiDAN THE LIVE 2026 15th Anniversary』＆『EBiDA
+ N Visual Dictionary 2027』\nBlu-ray 早期予約特典（選べるグル
+ ープ別トレカ）\n12/1以降も規定数に達するまで先着で
+ 配布。希望グループの対象カートから注文\n公式の告
+ 知：https://super-dragon.jp/news/news11875/\nしめろぐ（非公式
+ ）：https://shimelog.github.io
+URL:https://super-dragon.jp/news/news11875/
+END:VEVENT
+BEGIN:VEVENT
+UID:1fc6f19482b16d30ad55@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:【応募締切・抽選】SUPER★DRAGON セゾンカードコ
+ ラボ
+DESCRIPTION:SUPER★DRAGON×セゾンカード コラボキャンペー
+ ン\nスペシャル・オンライン・トーク会\nトーク会 2027/
+ 1/24(日) オンライン\nカード発行のうえ15\,000円（税込）
+ 以上のショッピング利用と抽選エントリーが条件\n公
+ 式の告知：https://super-dragon.jp/news/news11834/\nしめろぐ（
+ 非公式）：https://shimelog.github.io
+URL:https://super-dragon.jp/news/news11834/
+END:VEVENT
+BEGIN:VEVENT
+UID:d14499d35b48adf40960@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261201T120000Z
+DTEND:20261201T123000Z
+SUMMARY:【販売開始】SUPER★DRAGON STAR リリイベ横浜
+DESCRIPTION:STAR リリースイベント KT Zepp Yokohama（神奈川）
+ \n特典会参加券付きCD事前予約（楽天ブックス）\nイベ
+ ント 12/3(木) KT Zepp Yokohama\n当日朝9時まではカート購入
+ 上限2口、参加券付き商品は無くなり次第終了\n公式の
+ 告知：https://super-dragon.jp/news/news11872/\nしめろぐ（非公
+ 式）：https://shimelog.github.io
+URL:https://super-dragon.jp/news/news11872/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【販売開始】SUPER★DRAGON STAR リリイベ横浜
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ab4f1debadab0f5be02f@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261203T100000Z
+DTEND:20261203T103000Z
+SUMMARY:【販売締切】SUPER★DRAGON STAR リリイベ横浜
+DESCRIPTION:STAR リリースイベント KT Zepp Yokohama（神奈川）
+ \n特典会参加券付きCD事前予約 個別ミート＆グリート\n
+ イベント 12/3(木) KT Zepp Yokohama\n通常盤2枚セットの購入
+ で1回参加、参加券付き商品は無くなり次第終了\n公式
+ の告知：https://super-dragon.jp/news/news11872/\nしめろぐ（非
+ 公式）：https://shimelog.github.io
+URL:https://super-dragon.jp/news/news11872/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【販売締切】SUPER★DRAGON STAR リリイベ横浜
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:1656ba17420c506a9677@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+SUMMARY:【発売日】SUPER★DRAGON STAR
+DESCRIPTION:Major 2nd Album「STAR」\nAREA SD 限定盤の予約受付
+ は終了\n公式の告知：https://super-dragon.jp/news/news11696/\nし
+ めろぐ（非公式）：https://shimelog.github.io
+URL:https://super-dragon.jp/news/news11696/
+END:VEVENT
+BEGIN:VEVENT
+UID:270736412b8b90a41dea@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261221T142900Z
+DTEND:20261221T145900Z
+SUMMARY:【販売締切】SUPER★DRAGON EBiDAN 15周年BD＆本
+DESCRIPTION:Blu-ray『EBiDAN THE LIVE 2026 15th Anniversary』＆『EBiDA
+ N Visual Dictionary 2027』\nソロ表紙風メンバー別アクリル
+ キーホルダーセット（受注生産・税込6\,050円）\n全額
+ 内金で注文する受注生産限定商品\n公式の告知：https://
+ super-dragon.jp/news/news11875/\nしめろぐ（非公式）：https://sh
+ imelog.github.io
+URL:https://super-dragon.jp/news/news11875/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【販売締切】SUPER★DRAGON EBiDAN 15周年BD＆本
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:88c834eeb4b455e98cd0@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART;VALUE=DATE:20270210
+DTEND;VALUE=DATE:20270211
+SUMMARY:【発売日】SUPER★DRAGON EBiDAN 15周年BD＆本
+DESCRIPTION:Blu-ray『EBiDAN THE LIVE 2026 15th Anniversary』＆『EBiDA
+ N Visual Dictionary 2027』\n＠Loppi・HMV限定盤 Blu-ray（税込8\,8
+ 00円）／Visual Dictionary（税込4\,950円）\n＠Loppi・HMV店舗
+ ・HMV&BOOKS online限定。両方同時購入でB5クリアファイル
+ （グループ別）\n公式の告知：https://super-dragon.jp/news/new
+ s11875/\nしめろぐ（非公式）：https://shimelog.github.io
+URL:https://super-dragon.jp/news/news11875/
+END:VEVENT
+END:VCALENDAR

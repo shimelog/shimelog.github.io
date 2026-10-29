@@ -1,0 +1,575 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//shimelog//JA
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:しめろぐ｜超特急（ハル）
+X-WR-TIMEZONE:Asia/Tokyo
+X-WR-CALDESC:公式の告知から拾った締切（非公式）。申し
+ 込む前に必ず公式の告知を確認してください。
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:5178718afb3940b4af5f@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261022T110000Z
+DTEND:20261022T113000Z
+SUMMARY:【販売開始】超特急 ドームグッズ事前購入
+DESCRIPTION:東京ドーム公演 オフィシャルグッズ＆生写真
+ セット 事前購入・会場受取\nスタダ便 会場受取（事前
+ 購入）\n公演 11/25(水)・11/26(木) 東京ドーム\n該当公演
+ のチケットを持っている本人のみ。会場受取枠は先着
+ 順定員制、受取手数料440円\n公式の告知：https://bullettra
+ in.jp/news/detail/110230\nしめろぐ（非公式）：https://shimelog.
+ github.io
+URL:https://bullettrain.jp/news/detail/110230
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【販売開始】超特急 ドームグッズ事前購入
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:24d54f0e9b2812803a90@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261022T142900Z
+DTEND:20261022T145900Z
+SUMMARY:【応募締切】超特急 エトランス・フィーバー
+DESCRIPTION:24th Single『エトランス・フィーバー』デジタ
+ ルキャンペーン\nTikTok投稿キャンペーン\n応募者全員に
+ 「電話風♪ もしもしボイスメッセージ」、抽選で計18
+ 名にソロチェキ\n公式の告知：https://bullettrain.jp/news/deta
+ il/110217\nしめろぐ（非公式）：https://shimelog.github.io
+URL:https://bullettrain.jp/news/detail/110217
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【応募締切】超特急 エトランス・フィーバー
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c6389bea00144f7a1b00@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261022T142900Z
+DTEND:20261022T145900Z
+SUMMARY:【応募締切・抽選】超特急 エトランス・フィー
+ バー
+DESCRIPTION:24th Single『エトランス・フィーバー』デジタ
+ ルキャンペーン\n楽曲シェアキャンペーン\nApple MusicかS
+ potifyで聴いてSNSでシェアした画面のスクリーンショッ
+ トを送ると、100名にロゴステッカー\n公式の告知：https
+ ://bullettrain.jp/news/detail/110217\nしめろぐ（非公式）：https
+ ://shimelog.github.io
+URL:https://bullettrain.jp/news/detail/110217
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【応募締切・抽選】超特急 エトランス・フィ
+ ーバー
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:3cb7a97444ada7d2c467@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261024T030000Z
+DTEND:20261024T033000Z
+SUMMARY:【一般発売・先着】超特急 トンチキランド2
+DESCRIPTION:超特急 presents『トンチキランド2〜エトランス
+ ・フィーバー〜』\n一般先着予約\n福岡 11/19〜12/3、大
+ 阪 12/8〜12/29、東京 2027/1/5〜1/30\nなくなり次第終了。フ
+ ァンクラブ先着で完売した時間枠は追加販売なし\n公
+ 式の告知：https://bullettrain.jp/news/detail/110218\nしめろぐ（
+ 非公式）：https://shimelog.github.io
+URL:https://bullettrain.jp/news/detail/110218
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【一般発売・先着】超特急 トンチキランド2
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:6f365fb40090bb7910f5@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261024T043000Z
+DTEND:20261024T050000Z
+SUMMARY:【当落発表・抽選】超特急 ドーム機材席2次
+DESCRIPTION:BULLET TRAIN 1st DOME LIVE Signal 機材席開放販売 2次
+ 受付\n『夢の青春8きっぷ』会員限定 機材席開放販売 2
+ 次受付【会員＋会員】\n公演 11/25(水)・26(木) 東京ドー
+ ム\nメールが届かない場合はローソンチケットのマイ
+ ページで確認\n公式の告知：https://bullettrain.jp/news/detail/
+ 110221\nしめろぐ（非公式）：https://shimelog.github.io
+URL:https://bullettrain.jp/news/detail/110221
+END:VEVENT
+BEGIN:VEVENT
+UID:8ba9ae22fee1b610df16@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261024T142000Z
+DTEND:20261024T145000Z
+SUMMARY:【販売締切】超特急 ドームグッズ事前購入
+DESCRIPTION:東京ドーム公演 オフィシャルグッズ＆生写真
+ セット 事前購入・会場受取\nスタダ便 会場受取（事前
+ 購入）\n公演 11/25(水)・11/26(木) 東京ドーム\n該当公演
+ のチケットを持っている本人のみ。会場受取枠は先着
+ 順定員制、受取手数料440円\n公式の告知：https://bullettra
+ in.jp/news/detail/110230\nしめろぐ（非公式）：https://shimelog.
+ github.io
+URL:https://bullettrain.jp/news/detail/110230
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【販売締切】超特急 ドームグッズ事前購入
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:5b15c847154be36aa30c@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261025T142900Z
+DTEND:20261025T145900Z
+SUMMARY:【入金締切・抽選】超特急 超特急×DISH//
+DESCRIPTION:15th Anniversary Special Event「超特急×DISH//」\n『夢
+ の青春8きっぷ』『皿組GOLD』会員限定先行\n公演 12/25(
+ 金) 国立代々木競技場 第一体育館\n公式の告知：https://
+ bullettrain.jp/news/detail/110191\nしめろぐ（非公式）：https://
+ shimelog.github.io
+URL:https://bullettrain.jp/news/detail/110191
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【入金締切・抽選】超特急 超特急×DISH//
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:7ed63378743ea84c69cf@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261026T040000Z
+DTEND:20261026T043000Z
+SUMMARY:【販売開始】超特急 EBiDANくじ vol.2
+DESCRIPTION:EBiDAN オンラインくじ vol.2\nグループ別オンラ
+ インくじ\n1回800円、全5等級のいずれかが必ず当たる\n
+ 公式の告知：https://bullettrain.jp/news/detail/110233\nしめろぐ
+ （非公式）：https://shimelog.github.io
+URL:https://bullettrain.jp/news/detail/110233
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【販売開始】超特急 EBiDANくじ vol.2
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:845f21f36b22f79bf0ee@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261027T100000Z
+DTEND:20261027T103000Z
+SUMMARY:【販売開始】超特急 エトランス・フィーバー特
+ 典会
+DESCRIPTION:24th Single『エトランス・フィーバー』リリー
+ ス記念特典会\n第1次 応募用シリアルナンバー付き商品
+  予約販売\n特典会 2027/1/10・1/17・1/23・2/20\nUNIVERSAL MUSIC 
+ STORE／HMV&BOOKS online／TOWER RECORDS ONLINEの専用カート限定
+ 。シリアルは同じ次の応募期間のみ有効\n公式の告知
+ ：https://bullettrain.jp/news/detail/110235\nしめろぐ（非公式）
+ ：https://shimelog.github.io
+URL:https://bullettrain.jp/news/detail/110235
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【販売開始】超特急 エトランス・フィーバー
+ 特典会
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:5a141fa48c68db5e458e@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261027T142900Z
+DTEND:20261027T145900Z
+SUMMARY:【入金締切・抽選】超特急 ドーム機材席2次
+DESCRIPTION:BULLET TRAIN 1st DOME LIVE Signal 機材席開放販売 2次
+ 受付\n『夢の青春8きっぷ』会員限定 機材席開放販売 2
+ 次受付【会員＋会員】\n公演 11/25(水)・26(木) 東京ドー
+ ム\n公式の告知：https://bullettrain.jp/news/detail/110221\nしめ
+ ろぐ（非公式）：https://shimelog.github.io
+URL:https://bullettrain.jp/news/detail/110221
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【入金締切・抽選】超特急 ドーム機材席2次
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:782eb57ba163db30df75@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261101T142900Z
+DTEND:20261101T145900Z
+SUMMARY:【販売締切】超特急 アロハ生誕グッズ
+DESCRIPTION:ALOHA 26th Anniversary SPECIAL GOODS＆生写真・ミニフ
+ ォトセット 受注販売\n「夢の青春8きっぷ」会員限定 
+ 受注販売（スタダ便）\n予約期間内なら必ず買える受
+ 注販売。購入者にオリジナルポストカード、発送は2027
+ 年1月下旬頃から\n公式の告知：https://bullettrain.jp/news/det
+ ail/110238\nしめろぐ（非公式）：https://shimelog.github.io
+URL:https://bullettrain.jp/news/detail/110238
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【販売締切】超特急 アロハ生誕グッズ
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:50d55e5546815fc73612@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261102T012900Z
+DTEND:20261102T015900Z
+SUMMARY:【予約締切】超特急 エトランス・フィーバー特
+ 典会
+DESCRIPTION:24th Single『エトランス・フィーバー』リリー
+ ス記念特典会\n第1次 応募用シリアルナンバー付き商品
+  予約販売\n特典会 2027/1/10・1/17・1/23・2/20\n専用カート
+ で販売のシリアル付き商品のみ対象。店舗別購入特典
+ の対象外\n公式の告知：https://bullettrain.jp/news/detail/110235
+ \nしめろぐ（非公式）：https://shimelog.github.io
+URL:https://bullettrain.jp/news/detail/110235
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【予約締切】超特急 エトランス・フィーバー
+ 特典会
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:526b707c418105c3903d@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261102T142900Z
+DTEND:20261102T145900Z
+SUMMARY:【販売締切】超特急 EBiDANくじ vol.2
+DESCRIPTION:EBiDAN オンラインくじ vol.2\nグループ別オンラ
+ インくじ\n販売期間中であればいつでも購入できる\n公
+ 式の告知：https://bullettrain.jp/news/detail/110233\nしめろぐ（
+ 非公式）：https://shimelog.github.io
+URL:https://bullettrain.jp/news/detail/110233
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【販売締切】超特急 EBiDANくじ vol.2
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2c7919c6e637adb3ee0b@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261103T142900Z
+DTEND:20261103T145900Z
+SUMMARY:【申込締切・抽選】超特急 超特急×DISH//
+DESCRIPTION:15th Anniversary Special Event「超特急×DISH//」\n『夢
+ の青春8きっぷ』『皿組GOLD』会員限定２次先行\n公演 12
+ /25(金) 国立代々木競技場 第一体育館\n代表者・同行者
+ ともに会員限定。1会員1公演4枚まで（ファミリー席は2
+ 〜4枚）\n公式の告知：https://bullettrain.jp/news/detail/110226\n
+ しめろぐ（非公式）：https://shimelog.github.io
+URL:https://bullettrain.jp/news/detail/110226
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【申込締切・抽選】超特急 超特急×DISH//
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:41cdf8483ddc46a7b614@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261108T123000Z
+DTEND:20261108T130000Z
+SUMMARY:【応募締切・抽選】超特急 エトランス・フィー
+ バー特典会
+DESCRIPTION:24th Single『エトランス・フィーバー』リリー
+ ス記念特典会\n第1次 応募（メンバー個別2ショット撮
+ 影会・お渡し会）\n特典会 2027/1/10・1/17・1/23・2/20\nchord
+ で応募。第1次の予約で付与されたシリアルのみ有効\n
+ 公式の告知：https://bullettrain.jp/news/detail/110235\nしめろぐ
+ （非公式）：https://shimelog.github.io
+URL:https://bullettrain.jp/news/detail/110235
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【応募締切・抽選】超特急 エトランス・フィ
+ ーバー特典会
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ebd7811fb5de1710fd64@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261112T083000Z
+DTEND:20261112T090000Z
+SUMMARY:【当選発表・抽選】超特急 エトランス・フィー
+ バー特典会
+DESCRIPTION:24th Single『エトランス・フィーバー』リリー
+ ス記念特典会\n第1次 応募（メンバー個別2ショット撮
+ 影会・お渡し会）\n特典会 2027/1/10・1/17・1/23・2/20\nchord
+ からメールで通知（18:00以降）\n公式の告知：https://bull
+ ettrain.jp/news/detail/110235\nしめろぐ（非公式）：https://shim
+ elog.github.io
+URL:https://bullettrain.jp/news/detail/110235
+END:VEVENT
+BEGIN:VEVENT
+UID:ab290a139e65d64479e1@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261113T043000Z
+DTEND:20261113T050000Z
+SUMMARY:【当落発表・抽選】超特急 超特急×DISH//
+DESCRIPTION:15th Anniversary Special Event「超特急×DISH//」\n『夢
+ の青春8きっぷ』『皿組GOLD』会員限定２次先行\n公演 12
+ /25(金) 国立代々木競技場 第一体育館\nメールが届かな
+ い場合はローソンチケットのマイページで確認\n公式
+ の告知：https://bullettrain.jp/news/detail/110226\nしめろぐ（非
+ 公式）：https://shimelog.github.io
+URL:https://bullettrain.jp/news/detail/110226
+END:VEVENT
+BEGIN:VEVENT
+UID:e52e8b06328eb037a530@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261115T012900Z
+DTEND:20261115T015900Z
+SUMMARY:【予約締切】超特急 エトランス・フィーバー特
+ 典会
+DESCRIPTION:24th Single『エトランス・フィーバー』リリー
+ ス記念特典会\n第2次 応募用シリアルナンバー付き商品
+  予約販売\n特典会 2027/1/10・1/17・1/23・2/20\n専用カート
+ で販売のシリアル付き商品のみ対象。店舗別購入特典
+ の対象外\n公式の告知：https://bullettrain.jp/news/detail/110235
+ \nしめろぐ（非公式）：https://shimelog.github.io
+URL:https://bullettrain.jp/news/detail/110235
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【予約締切】超特急 エトランス・フィーバー
+ 特典会
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2c7af654aff0d0e54fa0@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261116T142900Z
+DTEND:20261116T145900Z
+SUMMARY:【入金締切・抽選】超特急 超特急×DISH//
+DESCRIPTION:15th Anniversary Special Event「超特急×DISH//」\n『夢
+ の青春8きっぷ』『皿組GOLD』会員限定２次先行\n公演 12
+ /25(金) 国立代々木競技場 第一体育館\n公式の告知：http
+ s://bullettrain.jp/news/detail/110226\nしめろぐ（非公式）：http
+ s://shimelog.github.io
+URL:https://bullettrain.jp/news/detail/110226
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【入金締切・抽選】超特急 超特急×DISH//
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:370ae33bebc01b3d3f51@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261121T123000Z
+DTEND:20261121T130000Z
+SUMMARY:【応募締切・抽選】超特急 エトランス・フィー
+ バー特典会
+DESCRIPTION:24th Single『エトランス・フィーバー』リリー
+ ス記念特典会\n第2次 応募（メンバー個別2ショット撮
+ 影会・お渡し会）\n特典会 2027/1/10・1/17・1/23・2/20\nchord
+ で応募。第2次の予約で付与されたシリアルのみ有効\n
+ 公式の告知：https://bullettrain.jp/news/detail/110235\nしめろぐ
+ （非公式）：https://shimelog.github.io
+URL:https://bullettrain.jp/news/detail/110235
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【応募締切・抽選】超特急 エトランス・フィ
+ ーバー特典会
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:689d16a9e4288e0aab76@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261124T083000Z
+DTEND:20261124T090000Z
+SUMMARY:【当選発表・抽選】超特急 エトランス・フィー
+ バー特典会
+DESCRIPTION:24th Single『エトランス・フィーバー』リリー
+ ス記念特典会\n第2次 応募（メンバー個別2ショット撮
+ 影会・お渡し会）\n特典会 2027/1/10・1/17・1/23・2/20\nchord
+ からメールで通知（18:00以降）\n公式の告知：https://bull
+ ettrain.jp/news/detail/110235\nしめろぐ（非公式）：https://shim
+ elog.github.io
+URL:https://bullettrain.jp/news/detail/110235
+END:VEVENT
+BEGIN:VEVENT
+UID:603ef9be9cd342fccfee@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261125T012900Z
+DTEND:20261125T015900Z
+SUMMARY:【予約締切】超特急 エトランス・フィーバー特
+ 典会
+DESCRIPTION:24th Single『エトランス・フィーバー』リリー
+ ス記念特典会\n第3次 応募用シリアルナンバー付き商品
+  予約販売\n特典会 2027/1/10・1/17・1/23・2/20\n専用カート
+ で販売のシリアル付き商品のみ対象。店舗別購入特典
+ の対象外\n公式の告知：https://bullettrain.jp/news/detail/110235
+ \nしめろぐ（非公式）：https://shimelog.github.io
+URL:https://bullettrain.jp/news/detail/110235
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【予約締切】超特急 エトランス・フィーバー
+ 特典会
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:23cf64ec1f1366465178@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:【特典締切】超特急 EBiDAN 15周年BD＆本
+DESCRIPTION:Blu-ray『EBiDAN THE LIVE 2026 15th Anniversary』＆『EBiDA
+ N Visual Dictionary 2027』\nBlu-ray 早期予約特典（選べるグル
+ ープ別トレカ）\n12/1以降も規定数に達するまで先着で
+ 配布。希望グループの対象カートから注文\n公式の告
+ 知：https://bullettrain.jp/news/detail/110242\nしめろぐ（非公式
+ ）：https://shimelog.github.io
+URL:https://bullettrain.jp/news/detail/110242
+END:VEVENT
+BEGIN:VEVENT
+UID:c6f63db5161954a6d583@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261130T123000Z
+DTEND:20261130T130000Z
+SUMMARY:【応募締切・抽選】超特急 エトランス・フィー
+ バー特典会
+DESCRIPTION:24th Single『エトランス・フィーバー』リリー
+ ス記念特典会\n第3次 応募（メンバー個別2ショット撮
+ 影会・お渡し会）\n特典会 2027/1/10・1/17・1/23・2/20\nchord
+ で応募。第3次の予約で付与されたシリアルのみ有効\n
+ 公式の告知：https://bullettrain.jp/news/detail/110235\nしめろぐ
+ （非公式）：https://shimelog.github.io
+URL:https://bullettrain.jp/news/detail/110235
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【応募締切・抽選】超特急 エトランス・フィ
+ ーバー特典会
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ea14591c0c9061e26880@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261202T083000Z
+DTEND:20261202T090000Z
+SUMMARY:【当選発表・抽選】超特急 エトランス・フィー
+ バー特典会
+DESCRIPTION:24th Single『エトランス・フィーバー』リリー
+ ス記念特典会\n第3次 応募（メンバー個別2ショット撮
+ 影会・お渡し会）\n特典会 2027/1/10・1/17・1/23・2/20\nchord
+ からメールで通知（18:00以降）\n公式の告知：https://bull
+ ettrain.jp/news/detail/110235\nしめろぐ（非公式）：https://shim
+ elog.github.io
+URL:https://bullettrain.jp/news/detail/110235
+END:VEVENT
+BEGIN:VEVENT
+UID:3c5f1c24db26f7123932@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261203T012900Z
+DTEND:20261203T015900Z
+SUMMARY:【予約締切】超特急 エトランス・フィーバー特
+ 典会
+DESCRIPTION:24th Single『エトランス・フィーバー』リリー
+ ス記念特典会\n第4次 応募用シリアルナンバー付き商品
+  予約販売\n特典会 2027/1/10・1/17・1/23・2/20\n専用カート
+ で販売のシリアル付き商品のみ対象。店舗別購入特典
+ の対象外\n公式の告知：https://bullettrain.jp/news/detail/110235
+ \nしめろぐ（非公式）：https://shimelog.github.io
+URL:https://bullettrain.jp/news/detail/110235
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【予約締切】超特急 エトランス・フィーバー
+ 特典会
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2a3d34256e4f0f96250b@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261210T123000Z
+DTEND:20261210T130000Z
+SUMMARY:【応募締切・抽選】超特急 エトランス・フィー
+ バー特典会
+DESCRIPTION:24th Single『エトランス・フィーバー』リリー
+ ス記念特典会\n第4次 応募（メンバー個別2ショット撮
+ 影会・お渡し会）\n特典会 2027/1/10・1/17・1/23・2/20\nchord
+ で応募。第4次の予約で付与されたシリアルのみ有効\n
+ 公式の告知：https://bullettrain.jp/news/detail/110235\nしめろぐ
+ （非公式）：https://shimelog.github.io
+URL:https://bullettrain.jp/news/detail/110235
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【応募締切・抽選】超特急 エトランス・フィ
+ ーバー特典会
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:0f771d322173603c96a9@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261214T083000Z
+DTEND:20261214T090000Z
+SUMMARY:【当選発表・抽選】超特急 エトランス・フィー
+ バー特典会
+DESCRIPTION:24th Single『エトランス・フィーバー』リリー
+ ス記念特典会\n第4次 応募（メンバー個別2ショット撮
+ 影会・お渡し会）\n特典会 2027/1/10・1/17・1/23・2/20\nchord
+ からメールで通知（18:00以降）\n公式の告知：https://bull
+ ettrain.jp/news/detail/110235\nしめろぐ（非公式）：https://shim
+ elog.github.io
+URL:https://bullettrain.jp/news/detail/110235
+END:VEVENT
+BEGIN:VEVENT
+UID:7084ece9458cef42bc31@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART;VALUE=DATE:20261216
+DTEND;VALUE=DATE:20261217
+SUMMARY:【発売日】超特急 エトランス・フィーバー
+DESCRIPTION:24th Single『エトランス・フィーバー』\nメンバ
+ ーソロ盤を含む全12形態\nリリース記念特典会の応募に
+ は、専用カートで予約・購入するともらえるシリアル
+ ナンバーが必要。専用カートの予約開始日は後日発表\
+ n公式の告知：https://bullettrain.jp/news/detail/110198\nしめろ
+ ぐ（非公式）：https://shimelog.github.io
+URL:https://bullettrain.jp/news/detail/110198
+END:VEVENT
+BEGIN:VEVENT
+UID:c02036cdab439770b117@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261221T142900Z
+DTEND:20261221T145900Z
+SUMMARY:【販売締切】超特急 EBiDAN 15周年BD＆本
+DESCRIPTION:Blu-ray『EBiDAN THE LIVE 2026 15th Anniversary』＆『EBiDA
+ N Visual Dictionary 2027』\nソロ表紙風メンバー別アクリル
+ キーホルダーセット（受注生産・税込6\,050円）\n全額
+ 内金で注文する受注生産限定商品\n公式の告知：https://
+ bullettrain.jp/news/detail/110242\nしめろぐ（非公式）：https://
+ shimelog.github.io
+URL:https://bullettrain.jp/news/detail/110242
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【販売締切】超特急 EBiDAN 15周年BD＆本
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:b6efb83e1e15fa9d2907@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART;VALUE=DATE:20270210
+DTEND;VALUE=DATE:20270211
+SUMMARY:【発売日】超特急 EBiDAN 15周年BD＆本
+DESCRIPTION:Blu-ray『EBiDAN THE LIVE 2026 15th Anniversary』＆『EBiDA
+ N Visual Dictionary 2027』\n＠Loppi・HMV限定盤 Blu-ray（税込8\,8
+ 00円）／Visual Dictionary（税込4\,950円）\n＠Loppi・HMV店舗
+ ・HMV&BOOKS online限定。両方同時購入でB5クリアファイル
+ （グループ別）\n公式の告知：https://bullettrain.jp/news/deta
+ il/110242\nしめろぐ（非公式）：https://shimelog.github.io
+URL:https://bullettrain.jp/news/detail/110242
+END:VEVENT
+END:VCALENDAR

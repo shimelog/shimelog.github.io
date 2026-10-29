@@ -1,0 +1,167 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//shimelog//JA
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:しめろぐ｜原因は自分にある。（全員）
+X-WR-TIMEZONE:Asia/Tokyo
+X-WR-CALDESC:公式の告知から拾った締切（非公式）。申し
+ 込む前に必ず公式の告知を確認してください。
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:d59bab71b4c91753d416@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261027T100000Z
+DTEND:20261027T103000Z
+SUMMARY:【販売開始】原因は自分にある。 Laboratory – Ne
+ グッズ
+DESCRIPTION:GNJB FC Limited Tour Laboratory – Ne オフィシャルグ
+ ッズ・生写真セット 事前通販\nスタダ便 事前通販\n公
+ 演 12/13(日)から\n予定数に達し次第終了。12/9(水)頃まで
+ にお届け予定\n公式の告知：https://genjibu.jp/news/detail/2530
+ \nしめろぐ（非公式）：https://shimelog.github.io
+URL:https://genjibu.jp/news/detail/2530
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【販売開始】原因は自分にある。 Laboratory – 
+ Neグッズ
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:6d2de86000038c66b280@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261028T033000Z
+DTEND:20261028T040000Z
+SUMMARY:【当落発表・抽選】原因は自分にある。 ラブリ
+ ーズン フリーライブ
+DESCRIPTION:ラブリーズン リリース記念フリーライブ\nロ
+ ーチケ先行\n公演 11/11(水) 横浜赤レンガ倉庫 赤レンガ
+ パーク特設会場\nチケット代無料、発券諸手数料440円
+ （税込）\n公式の告知：https://genjibu.jp/news/detail/2526\nし
+ めろぐ（非公式）：https://shimelog.github.io
+URL:https://genjibu.jp/news/detail/2526
+END:VEVENT
+BEGIN:VEVENT
+UID:40f8efd895d162cda127@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261030T142900Z
+DTEND:20261030T145900Z
+SUMMARY:【入金締切・抽選】原因は自分にある。 ラブリ
+ ーズン フリーライブ
+DESCRIPTION:ラブリーズン リリース記念フリーライブ\nロ
+ ーチケ先行\n公演 11/11(水) 横浜赤レンガ倉庫 赤レンガ
+ パーク特設会場\nチケット代無料、発券諸手数料440円
+ （税込）\n公式の告知：https://genjibu.jp/news/detail/2526\nし
+ めろぐ（非公式）：https://shimelog.github.io
+URL:https://genjibu.jp/news/detail/2526
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【入金締切・抽選】原因は自分にある。 ラブ
+ リーズン フリーライブ
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:57ec955132a73b592f73@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261102T142900Z
+DTEND:20261102T145900Z
+SUMMARY:【販売締切】原因は自分にある。 EBiDANオンライ
+ ンくじ
+DESCRIPTION:EBiDAN オンラインくじ vol.2\n1回800円（税込）、
+ 全5等級のいずれかが必ず当たる\n公式の告知：https://ge
+ njibu.jp/news/detail/2528\nしめろぐ（非公式）：https://shimelog
+ .github.io
+URL:https://genjibu.jp/news/detail/2528
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【販売締切】原因は自分にある。 EBiDANオンラ
+ インくじ
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:8267fbce5fe62d3a6b0a@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261102T142900Z
+DTEND:20261102T145900Z
+SUMMARY:【販売締切】原因は自分にある。 Laboratory – Ne
+ グッズ
+DESCRIPTION:GNJB FC Limited Tour Laboratory – Ne オフィシャルグ
+ ッズ・生写真セット 事前通販\nスタダ便 事前通販\n公
+ 演 12/13(日)から\n予定数に達し次第終了。12/9(水)頃まで
+ にお届け予定\n公式の告知：https://genjibu.jp/news/detail/2530
+ \nしめろぐ（非公式）：https://shimelog.github.io
+URL:https://genjibu.jp/news/detail/2530
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【販売締切】原因は自分にある。 Laboratory – 
+ Neグッズ
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:8784db02f7c36dd82b2b@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:【発売日】原因は自分にある。 ラブリーズン
+DESCRIPTION:5thシングル「ラブリーズン」\n初回限定盤・
+ 通常盤・メンバーソロ盤7形態\n購入特典は先着で、な
+ くなり次第終了\n公式の告知：https://genjibu.jp/news/detail/2
+ 533\nしめろぐ（非公式）：https://shimelog.github.io
+URL:https://genjibu.jp/news/detail/2533
+END:VEVENT
+BEGIN:VEVENT
+UID:72371af196b385e99dfe@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:【特典締切】原因は自分にある。 EBiDAN 15周年BD
+ ＆本
+DESCRIPTION:Blu-ray『EBiDAN THE LIVE 2026 15th Anniversary』＆『EBiDA
+ N Visual Dictionary 2027』\nBlu-ray 早期予約特典（選べるグル
+ ープ別トレカ）\n12/1以降も規定数に達するまで先着で
+ 配布。希望グループの対象カートから注文\n公式の告
+ 知：https://genjibu.jp/news/detail/2534\nしめろぐ（非公式）：
+ https://shimelog.github.io
+URL:https://genjibu.jp/news/detail/2534
+END:VEVENT
+BEGIN:VEVENT
+UID:cb2200932bd96336ca33@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261221T142900Z
+DTEND:20261221T145900Z
+SUMMARY:【販売締切】原因は自分にある。 EBiDAN 15周年BD
+ ＆本
+DESCRIPTION:Blu-ray『EBiDAN THE LIVE 2026 15th Anniversary』＆『EBiDA
+ N Visual Dictionary 2027』\nソロ表紙風メンバー別アクリル
+ キーホルダーセット（受注生産・税込6\,050円）\n全額
+ 内金で注文する受注生産限定商品\n公式の告知：https://
+ genjibu.jp/news/detail/2534\nしめろぐ（非公式）：https://shimel
+ og.github.io
+URL:https://genjibu.jp/news/detail/2534
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【販売締切】原因は自分にある。 EBiDAN 15周年
+ BD＆本
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2e7f125fd72dddca1c52@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART;VALUE=DATE:20270210
+DTEND;VALUE=DATE:20270211
+SUMMARY:【発売日】原因は自分にある。 EBiDAN 15周年BD＆本
+DESCRIPTION:Blu-ray『EBiDAN THE LIVE 2026 15th Anniversary』＆『EBiDA
+ N Visual Dictionary 2027』\n＠Loppi・HMV限定盤 Blu-ray（税込8\,8
+ 00円）／Visual Dictionary（税込4\,950円）\n＠Loppi・HMV店舗
+ ・HMV&BOOKS online限定。両方同時購入でB5クリアファイル
+ （グループ別）\n公式の告知：https://genjibu.jp/news/detail/2
+ 534\nしめろぐ（非公式）：https://shimelog.github.io
+URL:https://genjibu.jp/news/detail/2534
+END:VEVENT
+END:VCALENDAR

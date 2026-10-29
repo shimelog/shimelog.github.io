@@ -1,0 +1,506 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//shimelog//JA
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:しめろぐ｜M!LK（山中柔太朗）
+X-WR-TIMEZONE:Asia/Tokyo
+X-WR-CALDESC:公式の告知から拾った締切（非公式）。申し
+ 込む前に必ず公式の告知を確認してください。
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:873032879bc0288ebad8@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261023T030000Z
+DTEND:20261023T033000Z
+SUMMARY:【受付開始】M!LK Spotify On Stage
+DESCRIPTION:「Spotify On Stage Tokyo 2026 -10th Anniversary Special-」\
+ nSpotifyユーザー限定 最速先行販売\n公演 12/20(日) 東京
+ ガーデンシアター\n詳細はイベント公式サイト\n公式の
+ 告知：https://sd-milk.com/contents/1116603\nしめろぐ（非公式
+ ）：https://shimelog.github.io
+URL:https://sd-milk.com/contents/1116603
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【受付開始】M!LK Spotify On Stage
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:9ec77be86471b8551c73@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261025T142900Z
+DTEND:20261025T145900Z
+SUMMARY:【応募締切】M!LK ザッツ！超常
+DESCRIPTION:最新曲「ザッツ！超常」\nプレアド・プレセ
+ ーブキャンペーン\n参加者全員に未公開オフショット
+ とオリジナル待ち受け\n公式の告知：https://sd-milk.com/con
+ tents/1116686\nしめろぐ（非公式）：https://shimelog.github.io
+URL:https://sd-milk.com/contents/1116686
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【応募締切】M!LK ザッツ！超常
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eaf534966b32d9472ddd@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:【配信開始】M!LK ザッツ！超常
+DESCRIPTION:最新曲「ザッツ！超常」\n配信リリース（0時
+ から）\n公式の告知：https://sd-milk.com/contents/1116749\nしめ
+ ろぐ（非公式）：https://shimelog.github.io
+URL:https://sd-milk.com/contents/1116749
+END:VEVENT
+BEGIN:VEVENT
+UID:cc61b5016c5cccd76300@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261101T142900Z
+DTEND:20261101T145900Z
+SUMMARY:【応募締切】M!LK ザッツ！超常 DLキャンペーン
+DESCRIPTION:「ザッツ！超常」ダウンロードキャンペーン\
+ nダウンロード購入者キャンペーン\n応募者全員に限定
+ 画像（指定可）、抽選でジャケ写ステッカー・クリア
+ ファイル。対象はiTunes Store・レコチョク・mora・dミュ
+ ージック・music.jp\n公式の告知：https://sd-milk.com/contents/1
+ 122168\nしめろぐ（非公式）：https://shimelog.github.io
+URL:https://sd-milk.com/contents/1122168
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【応募締切】M!LK ザッツ！超常 DLキャンペーン
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:25383c264e39b176923e@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261102T142900Z
+DTEND:20261102T145900Z
+SUMMARY:【販売締切】M!LK EBiDANくじ vol.2
+DESCRIPTION:EBiDAN オンラインくじ vol.2\nグループ別オンラ
+ インくじ\n1回800円（税込）、販売期間中であればいつ
+ でも購入できる\n公式の告知：https://sd-milk.com/contents/112
+ 1455\nしめろぐ（非公式）：https://shimelog.github.io
+URL:https://sd-milk.com/contents/1121455
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【販売締切】M!LK EBiDANくじ vol.2
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c50d118a4c0af8b1884b@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+SUMMARY:【販売開始】M!LK ローソンキャンペーン
+DESCRIPTION:「M!LK」ローソンキャンペーン\n全国のローソ
+ ン・ナチュラルローソン店舗\nオリジナルフード・グ
+ ッズ・M!LKくじの販売など。一部店舗・ローソンストア
+ 100・Ｌミニマートは除く。詳細はキャンペーンサイト\
+ n公式の告知：https://sd-milk.com/contents/1117967\nしめろぐ（
+ 非公式）：https://shimelog.github.io
+URL:https://sd-milk.com/contents/1117967
+END:VEVENT
+BEGIN:VEVENT
+UID:8602b9ae6ce6d97dbb98@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261109T120000Z
+DTEND:20261109T123000Z
+SUMMARY:【受付開始・先着】M!LK カプセルトイ整理券
+DESCRIPTION:ARENA TOUR「シャカリキレボリューション」カプ
+ セルトイ『カプセルレボリューション』オンライン整
+ 理券\n神奈川・ぴあアリーナMM公演分 「Bitfan Pass」アプ
+ リでの整理券受付\n公演 11/21(土)・22(日) ぴあアリーナM
+ M\nPREMIUM MILK会員で該当公演のチケットを持つ本人のみ
+ 。予定枚数に達し次第終了\n公式の告知：https://sd-milk.c
+ om/contents/1111850\nしめろぐ（非公式）：https://shimelog.githu
+ b.io
+URL:https://sd-milk.com/contents/1111850
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【受付開始・先着】M!LK カプセルトイ整理券
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:8633cc10ba3f739dccb7@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261110T010000Z
+DTEND:20261110T013000Z
+SUMMARY:【一般発売】M!LK Spotify On Stage
+DESCRIPTION:「Spotify On Stage Tokyo 2026 -10th Anniversary Special-」\
+ n公演 12/20(日) 東京ガーデンシアター\n詳細はイベント
+ 公式サイト\n公式の告知：https://sd-milk.com/contents/1116603\n
+ しめろぐ（非公式）：https://shimelog.github.io
+URL:https://sd-milk.com/contents/1116603
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【一般発売】M!LK Spotify On Stage
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ebfb95ea1ca9ad370b9a@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261113T090000Z
+DTEND:20261113T093000Z
+SUMMARY:【受付開始・抽選】M!LK チケットトレード
+DESCRIPTION:ARENA TOUR「シャカリキレボリューション」チケ
+ ットトレード\nチケプラTrade\n公演 11/21(土)・22(日) ぴあ
+ アリーナMM\n毎日抽選型で、公演日前日11:59まで。ファ
+ ミリー席のみ締切が異なる\n公式の告知：https://sd-milk.c
+ om/contents/1107189\nしめろぐ（非公式）：https://shimelog.githu
+ b.io
+URL:https://sd-milk.com/contents/1107189
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【受付開始・抽選】M!LK チケットトレード
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:41660ccc2fb8b9bb669c@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261115T142900Z
+DTEND:20261115T145900Z
+SUMMARY:【リセール締切・抽選】M!LK チケットトレード
+DESCRIPTION:ARENA TOUR「シャカリキレボリューション」チケ
+ ットトレード\nローチケ リセールサービス\n公演 11/21(
+ 土)・22(日) ぴあアリーナMM\n1回抽選型。ローソンチケ
+ ットプレリクエスト先行分のみ\n公式の告知：https://sd-
+ milk.com/contents/1107189\nしめろぐ（非公式）：https://shimelog
+ .github.io
+URL:https://sd-milk.com/contents/1107189
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【リセール締切・抽選】M!LK チケットトレード
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:784d0d38362621d6d5a9@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261117T053000Z
+DTEND:20261117T060000Z
+SUMMARY:【当落発表・抽選】M!LK チケットトレード
+DESCRIPTION:ARENA TOUR「シャカリキレボリューション」チケ
+ ットトレード\nローチケ リセールサービス\n公演 11/21(
+ 土)・22(日) ぴあアリーナMM\n1回抽選型。ローソンチケ
+ ットプレリクエスト先行分のみ\n公式の告知：https://sd-
+ milk.com/contents/1107189\nしめろぐ（非公式）：https://shimelog
+ .github.io
+URL:https://sd-milk.com/contents/1107189
+END:VEVENT
+BEGIN:VEVENT
+UID:1911a42241c82e215b7e@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261119T022900Z
+DTEND:20261119T025900Z
+SUMMARY:【リセール締切・抽選】M!LK チケットトレード
+DESCRIPTION:ARENA TOUR「シャカリキレボリューション」チケ
+ ットトレード\nチケプラTrade ファミリー席\n公演 11/21(
+ 土)・22(日) ぴあアリーナMM\nスマートフォンを持たない
+ お子様連れはファミリー席へ（出品がある場合）\n公
+ 式の告知：https://sd-milk.com/contents/1107189\nしめろぐ（非
+ 公式）：https://shimelog.github.io
+URL:https://sd-milk.com/contents/1107189
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【リセール締切・抽選】M!LK チケットトレード
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:82db792574cf1d297304@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:【特典締切】M!LK EBiDAN 15周年BD＆本
+DESCRIPTION:Blu-ray『EBiDAN THE LIVE 2026 15th Anniversary』＆『EBiDA
+ N Visual Dictionary 2027』\nBlu-ray 早期予約特典（選べるグル
+ ープ別トレカ）\n12/1以降も規定数に達するまで先着で
+ 配布。希望グループの対象カートから注文\n公式の告
+ 知：https://sd-milk.com/contents/1122891\nしめろぐ（非公式）
+ ：https://shimelog.github.io
+URL:https://sd-milk.com/contents/1122891
+END:VEVENT
+BEGIN:VEVENT
+UID:33b1a3311b08945744a5@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261130T120000Z
+DTEND:20261130T123000Z
+SUMMARY:【受付開始・先着】M!LK カプセルトイ整理券
+DESCRIPTION:ARENA TOUR「シャカリキレボリューション」カプ
+ セルトイ『カプセルレボリューション』オンライン整
+ 理券\n愛知・Aichi Sky Expo公演分 「Bitfan Pass」アプリでの
+ 整理券受付\n公演 12/12(土)・13(日) Aichi Sky Expo ホールA\nP
+ REMIUM MILK会員で該当公演のチケットを持つ本人のみ。
+ 予定枚数に達し次第終了\n公式の告知：https://sd-milk.com/
+ contents/1111850\nしめろぐ（非公式）：https://shimelog.github.i
+ o
+URL:https://sd-milk.com/contents/1111850
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【受付開始・先着】M!LK カプセルトイ整理券
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fc82db4f5e290688702b@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261204T090000Z
+DTEND:20261204T093000Z
+SUMMARY:【受付開始・抽選】M!LK チケットトレード
+DESCRIPTION:ARENA TOUR「シャカリキレボリューション」チケ
+ ットトレード\nチケプラTrade\n公演 12/12(土)・13(日) Aichi 
+ Sky Expo ホールA\n毎日抽選型で、公演日前日11:59まで。
+ ファミリー席のみ締切が異なる\n公式の告知：https://sd-
+ milk.com/contents/1107189\nしめろぐ（非公式）：https://shimelog
+ .github.io
+URL:https://sd-milk.com/contents/1107189
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【受付開始・抽選】M!LK チケットトレード
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fed65939c94c83fc1442@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261210T022900Z
+DTEND:20261210T025900Z
+SUMMARY:【リセール締切・抽選】M!LK チケットトレード
+DESCRIPTION:ARENA TOUR「シャカリキレボリューション」チケ
+ ットトレード\nチケプラTrade ファミリー席\n公演 12/12(
+ 土)・13(日) Aichi Sky Expo ホールA\nスマートフォンを持た
+ ないお子様連れはファミリー席へ（出品がある場合）\
+ n公式の告知：https://sd-milk.com/contents/1107189\nしめろぐ（
+ 非公式）：https://shimelog.github.io
+URL:https://sd-milk.com/contents/1107189
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【リセール締切・抽選】M!LK チケットトレード
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ff64773180b57720dd39@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261211T120000Z
+DTEND:20261211T123000Z
+SUMMARY:【受付開始・先着】M!LK カプセルトイ整理券
+DESCRIPTION:ARENA TOUR「シャカリキレボリューション」カプ
+ セルトイ『カプセルレボリューション』オンライン整
+ 理券\n大阪・大阪城ホール公演分 「Bitfan Pass」アプリ
+ での整理券受付\n公演 12/25(金)・26(土) 大阪城ホール\nPR
+ EMIUM MILK会員で該当公演のチケットを持つ本人のみ。予
+ 定枚数に達し次第終了\n公式の告知：https://sd-milk.com/con
+ tents/1111850\nしめろぐ（非公式）：https://shimelog.github.io
+URL:https://sd-milk.com/contents/1111850
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【受付開始・先着】M!LK カプセルトイ整理券
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:24af580407d6efb56175@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261217T090000Z
+DTEND:20261217T093000Z
+SUMMARY:【受付開始・抽選】M!LK チケットトレード
+DESCRIPTION:ARENA TOUR「シャカリキレボリューション」チケ
+ ットトレード\nチケプラTrade\n公演 12/25(金)・26(土) 大阪
+ 城ホール\n毎日抽選型で、公演日前日11:59まで。ファミ
+ リー席のみ締切が異なる\n公式の告知：https://sd-milk.com/
+ contents/1107189\nしめろぐ（非公式）：https://shimelog.github.i
+ o
+URL:https://sd-milk.com/contents/1107189
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【受付開始・抽選】M!LK チケットトレード
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:95bf1d923856610e7519@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261220T142900Z
+DTEND:20261220T145900Z
+SUMMARY:【リセール締切・抽選】M!LK チケットトレード
+DESCRIPTION:ARENA TOUR「シャカリキレボリューション」チケ
+ ットトレード\nローチケ リセールサービス\n公演 12/25(
+ 金)・26(土) 大阪城ホール\n1回抽選型。ローソンチケッ
+ トプレリクエスト先行分のみ\n公式の告知：https://sd-mil
+ k.com/contents/1107189\nしめろぐ（非公式）：https://shimelog.gi
+ thub.io
+URL:https://sd-milk.com/contents/1107189
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【リセール締切・抽選】M!LK チケットトレード
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:445a2af5b9b579e47e28@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261221T142900Z
+DTEND:20261221T145900Z
+SUMMARY:【販売締切】M!LK EBiDAN 15周年BD＆本
+DESCRIPTION:Blu-ray『EBiDAN THE LIVE 2026 15th Anniversary』＆『EBiDA
+ N Visual Dictionary 2027』\nソロ表紙風メンバー別アクリル
+ キーホルダーセット（受注生産・税込6\,050円）\n全額
+ 内金で注文する受注生産限定商品\n公式の告知：https://
+ sd-milk.com/contents/1122891\nしめろぐ（非公式）：https://shime
+ log.github.io
+URL:https://sd-milk.com/contents/1122891
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【販売締切】M!LK EBiDAN 15周年BD＆本
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:9e6423b54a3cbc13f9b8@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261222T053000Z
+DTEND:20261222T060000Z
+SUMMARY:【当落発表・抽選】M!LK チケットトレード
+DESCRIPTION:ARENA TOUR「シャカリキレボリューション」チケ
+ ットトレード\nローチケ リセールサービス\n公演 12/25(
+ 金)・26(土) 大阪城ホール\n1回抽選型。ローソンチケッ
+ トプレリクエスト先行分のみ\n公式の告知：https://sd-mil
+ k.com/contents/1107189\nしめろぐ（非公式）：https://shimelog.gi
+ thub.io
+URL:https://sd-milk.com/contents/1107189
+END:VEVENT
+BEGIN:VEVENT
+UID:721457636269d51664f8@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261222T120000Z
+DTEND:20261222T123000Z
+SUMMARY:【受付開始・先着】M!LK カプセルトイ整理券
+DESCRIPTION:ARENA TOUR「シャカリキレボリューション」カプ
+ セルトイ『カプセルレボリューション』オンライン整
+ 理券\n神奈川・横浜アリーナ公演分 「Bitfan Pass」アプ
+ リでの整理券受付\n公演 2027/1/15(金)〜17(日) 横浜アリー
+ ナ\nPREMIUM MILK会員で該当公演のチケットを持つ本人の
+ み。予定枚数に達し次第終了\n公式の告知：https://sd-mil
+ k.com/contents/1111850\nしめろぐ（非公式）：https://shimelog.gi
+ thub.io
+URL:https://sd-milk.com/contents/1111850
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【受付開始・先着】M!LK カプセルトイ整理券
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2dade07da926be82bf3f@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261223T022900Z
+DTEND:20261223T025900Z
+SUMMARY:【リセール締切・抽選】M!LK チケットトレード
+DESCRIPTION:ARENA TOUR「シャカリキレボリューション」チケ
+ ットトレード\nチケプラTrade ファミリー席\n公演 12/25(
+ 金)・26(土) 大阪城ホール\nスマートフォンを持たない
+ お子様連れはファミリー席へ（出品がある場合）\n公
+ 式の告知：https://sd-milk.com/contents/1107189\nしめろぐ（非
+ 公式）：https://shimelog.github.io
+URL:https://sd-milk.com/contents/1107189
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【リセール締切・抽選】M!LK チケットトレード
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:288d73afee48db34a15a@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20270108T090000Z
+DTEND:20270108T093000Z
+SUMMARY:【受付開始・抽選】M!LK チケットトレード
+DESCRIPTION:ARENA TOUR「シャカリキレボリューション」チケ
+ ットトレード\nチケプラTrade\n公演 2027/1/15(金)〜17(日) 
+ 横浜アリーナ\n毎日抽選型で、公演日前日11:59まで。フ
+ ァミリー席のみ締切が異なる\n公式の告知：https://sd-mil
+ k.com/contents/1107189\nしめろぐ（非公式）：https://shimelog.gi
+ thub.io
+URL:https://sd-milk.com/contents/1107189
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【受付開始・抽選】M!LK チケットトレード
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:de232a09716a83a265e0@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20270111T142900Z
+DTEND:20270111T145900Z
+SUMMARY:【リセール締切・抽選】M!LK チケットトレード
+DESCRIPTION:ARENA TOUR「シャカリキレボリューション」チケ
+ ットトレード\nローチケ リセールサービス\n公演 2027/1/
+ 15(金)〜17(日) 横浜アリーナ\n1回抽選型。ローソンチケ
+ ットプレリクエスト先行分のみ\n公式の告知：https://sd-
+ milk.com/contents/1107189\nしめろぐ（非公式）：https://shimelog
+ .github.io
+URL:https://sd-milk.com/contents/1107189
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【リセール締切・抽選】M!LK チケットトレード
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:17d6e6c8a0a764c5a019@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20270113T022900Z
+DTEND:20270113T025900Z
+SUMMARY:【リセール締切・抽選】M!LK チケットトレード
+DESCRIPTION:ARENA TOUR「シャカリキレボリューション」チケ
+ ットトレード\nチケプラTrade ファミリー席\n公演 2027/1/1
+ 5(金)〜17(日) 横浜アリーナ\nスマートフォンを持たない
+ お子様連れはファミリー席へ（出品がある場合）\n公
+ 式の告知：https://sd-milk.com/contents/1107189\nしめろぐ（非
+ 公式）：https://shimelog.github.io
+URL:https://sd-milk.com/contents/1107189
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【リセール締切・抽選】M!LK チケットトレード
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:5f0252cf164dd35ac439@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20270113T053000Z
+DTEND:20270113T060000Z
+SUMMARY:【当落発表・抽選】M!LK チケットトレード
+DESCRIPTION:ARENA TOUR「シャカリキレボリューション」チケ
+ ットトレード\nローチケ リセールサービス\n公演 2027/1/
+ 15(金)〜17(日) 横浜アリーナ\n1回抽選型。ローソンチケ
+ ットプレリクエスト先行分のみ\n公式の告知：https://sd-
+ milk.com/contents/1107189\nしめろぐ（非公式）：https://shimelog
+ .github.io
+URL:https://sd-milk.com/contents/1107189
+END:VEVENT
+BEGIN:VEVENT
+UID:7ac7024ee5f0153704b0@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART;VALUE=DATE:20270210
+DTEND;VALUE=DATE:20270211
+SUMMARY:【発売日】M!LK EBiDAN 15周年BD＆本
+DESCRIPTION:Blu-ray『EBiDAN THE LIVE 2026 15th Anniversary』＆『EBiDA
+ N Visual Dictionary 2027』\n＠Loppi・HMV限定盤 Blu-ray（税込8\,8
+ 00円）／Visual Dictionary（税込4\,950円）\n＠Loppi・HMV店舗
+ ・HMV&BOOKS online限定。両方同時購入でB5クリアファイル
+ （グループ別）\n公式の告知：https://sd-milk.com/contents/112
+ 2891\nしめろぐ（非公式）：https://shimelog.github.io
+URL:https://sd-milk.com/contents/1122891
+END:VEVENT
+END:VCALENDAR

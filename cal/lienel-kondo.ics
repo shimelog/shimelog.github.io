@@ -1,0 +1,159 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//shimelog//JA
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:しめろぐ｜Lienel（近藤駿太）
+X-WR-TIMEZONE:Asia/Tokyo
+X-WR-CALDESC:公式の告知から拾った締切（非公式）。申し
+ 込む前に必ず公式の告知を確認してください。
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:0ed0aa70d6587506038e@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261030T043000Z
+DTEND:20261030T050000Z
+SUMMARY:【当落発表・抽選】Lienel あけおめ2027
+DESCRIPTION:Lienel New Year Party 〜あけおめ2027〜\n『＋KIRARI』
+ 会員先行\n公演 1/9(土) Zepp Haneda (TOKYO)／1/11(月・祝) Zepp 
+ Namba (OSAKA)\n結果メールが届かない場合はマイページで
+ 確認\n公式の告知：https://lienel.jp/contents/1117806\nしめろ
+ ぐ（非公式）：https://shimelog.github.io
+URL:https://lienel.jp/contents/1117806
+END:VEVENT
+BEGIN:VEVENT
+UID:defe4820691754eda872@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:【応募締切・抽選】Lienel 愛のダバダ キャンペー
+ ン
+DESCRIPTION:愛のダバダ リリース記念キャンペーン\nHMV 直
+ 筆サイン入りコラボポスタープレゼント\n応募にはロ
+ ーソンWEB会員登録が必要\n公式の告知：https://lienel.jp/co
+ ntents/1118921\nしめろぐ（非公式）：https://shimelog.github.io
+URL:https://lienel.jp/contents/1118921
+END:VEVENT
+BEGIN:VEVENT
+UID:bf297a1517e7e141571a@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261102T142900Z
+DTEND:20261102T145900Z
+SUMMARY:【応募締切・抽選】Lienel 愛のダバダ キャンペー
+ ン
+DESCRIPTION:愛のダバダ リリース記念キャンペーン\nタワ
+ ーレコード 直筆サイン入りB2コラボポスタープレゼン
+ ト\n応募にはタワーレコードメンバーズへの登録が必
+ 要\n公式の告知：https://lienel.jp/contents/1118921\nしめろぐ
+ （非公式）：https://shimelog.github.io
+URL:https://lienel.jp/contents/1118921
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【応募締切・抽選】Lienel 愛のダバダ キャン
+ ペーン
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ce9e278879cd6d02c389@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261102T142900Z
+DTEND:20261102T145900Z
+SUMMARY:【入金締切・抽選】Lienel あけおめ2027
+DESCRIPTION:Lienel New Year Party 〜あけおめ2027〜\n『＋KIRARI』
+ 会員先行\n公演 1/9(土) Zepp Haneda (TOKYO)／1/11(月・祝) Zepp 
+ Namba (OSAKA)\n結果メールが届かない場合はマイページで
+ 確認\n公式の告知：https://lienel.jp/contents/1117806\nしめろ
+ ぐ（非公式）：https://shimelog.github.io
+URL:https://lienel.jp/contents/1117806
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【入金締切・抽選】Lienel あけおめ2027
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2e8b85ae7d6b7317d1a7@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261102T142900Z
+DTEND:20261102T145900Z
+SUMMARY:【販売締切】Lienel EBiDANくじ vol.2
+DESCRIPTION:EBiDAN オンラインくじ vol.2\nグループ別オンラ
+ インくじ\n1回800円（税込）、販売期間中であればいつ
+ でも購入できる\n公式の告知：https://lienel.jp/contents/11215
+ 16\nしめろぐ（非公式）：https://shimelog.github.io
+URL:https://lienel.jp/contents/1121516
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【販売締切】Lienel EBiDANくじ vol.2
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:8327a9b3f9b5372b0a95@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:【特典締切】Lienel EBiDAN 15周年BD＆本
+DESCRIPTION:Blu-ray『EBiDAN THE LIVE 2026 15th Anniversary』＆『EBiDA
+ N Visual Dictionary 2027』\nBlu-ray 早期予約特典（選べるグル
+ ープ別トレカ）\n12/1以降も規定数に達するまで先着で
+ 配布。希望グループの対象カートから注文\n公式の告
+ 知：https://lienel.jp/contents/1122884\nしめろぐ（非公式）：h
+ ttps://shimelog.github.io
+URL:https://lienel.jp/contents/1122884
+END:VEVENT
+BEGIN:VEVENT
+UID:f9d18c7d02dc3f980afc@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261130T142900Z
+DTEND:20261130T145900Z
+SUMMARY:【応募締切】Lienel ダバダ お気に入りCP
+DESCRIPTION:愛のダバダ フォロー＆お気に入りキャンペー
+ ン\nアーティストフォロー＆楽曲お気に入りキャンペ
+ ーン\n応募者全員にしりとりチャレンジ動画。フォロ
+ ー・お気に入り登録のスクリーンショットを応募フォ
+ ームへアップロード\n公式の告知：https://lienel.jp/contents
+ /1121537\nしめろぐ（非公式）：https://shimelog.github.io
+URL:https://lienel.jp/contents/1121537
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【応募締切】Lienel ダバダ お気に入りCP
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:de8bca339e04a27b8c20@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART:20261221T142900Z
+DTEND:20261221T145900Z
+SUMMARY:【販売締切】Lienel EBiDAN 15周年BD＆本
+DESCRIPTION:Blu-ray『EBiDAN THE LIVE 2026 15th Anniversary』＆『EBiDA
+ N Visual Dictionary 2027』\nソロ表紙風メンバー別アクリル
+ キーホルダーセット（受注生産・税込6\,050円）\n全額
+ 内金で注文する受注生産限定商品\n公式の告知：https://
+ lienel.jp/contents/1122884\nしめろぐ（非公式）：https://shimelo
+ g.github.io
+URL:https://lienel.jp/contents/1122884
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【販売締切】Lienel EBiDAN 15周年BD＆本
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ca1514eaea7256a4d3ad@shimelog
+DTSTAMP:20261029T103738Z
+DTSTART;VALUE=DATE:20270210
+DTEND;VALUE=DATE:20270211
+SUMMARY:【発売日】Lienel EBiDAN 15周年BD＆本
+DESCRIPTION:Blu-ray『EBiDAN THE LIVE 2026 15th Anniversary』＆『EBiDA
+ N Visual Dictionary 2027』\n＠Loppi・HMV限定盤 Blu-ray（税込8\,8
+ 00円）／Visual Dictionary（税込4\,950円）\n＠Loppi・HMV店舗
+ ・HMV&BOOKS online限定。両方同時購入でB5クリアファイル
+ （グループ別）\n公式の告知：https://lienel.jp/contents/11228
+ 84\nしめろぐ（非公式）：https://shimelog.github.io
+URL:https://lienel.jp/contents/1122884
+END:VEVENT
+END:VCALENDAR
