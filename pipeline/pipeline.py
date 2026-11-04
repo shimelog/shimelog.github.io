@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""推しの締切 自動更新パイプライン（EBiDAN 各グループの公式サイト＋公式通販 MAILIVIS のメンバー・ユニット別ショップ）
+"""推しの締切 自動更新パイプライン（EBiDAN 10グループの公式サイト＋公式通販 MAILIVIS のメンバー・ユニット別ショップ）
 
   python3 pipeline.py check PAGE.html WORK   新着・変更のあった告知を WORK/new/*.txt に保存し、一覧を表示
   python3 pipeline.py merge PAGE.html WORK   WORK/extracted.json を告知本文と照合し、PAGE.html を更新
@@ -17,7 +17,11 @@ GROUPS = {"超特急": ["カイ", "リョウガ", "タクヤ", "ユーキ", "タ
           "SUPER★DRAGON": ["志村玲於", "古川毅", "ジャン海渡", "飯島颯", "伊藤壮吾", "田中洸希", "池田彪馬", "松村和哉", "柴崎楽"],
           "ONE N' ONLY": ["TETTA", "REI", "EIKU", "HAYATO", "NAOYA"],
           "原因は自分にある。": ["大倉空人", "小泉光咲", "桜木雅哉", "長野凌大", "武藤潤", "杢代和人", "吉澤要人"],
-          "Lienel": ["芳賀柊斗", "近藤駿太", "高岡ミロ", "森田璃空", "武田創世", "高桑真之"]}
+          "Lienel": ["芳賀柊斗", "近藤駿太", "高岡ミロ", "森田璃空", "武田創世", "高桑真之"],
+          "Sakurashimeji": ["田中雅功", "髙田彪我"],
+          "BUDDiiS": ["FUMINORI", "FUMIYA", "KEVIN", "MORRIE", "SEIYA", "SHOOT", "SHOW"],
+          "ICEx": ["志賀李玖", "山本龍人", "八神遼介", "阿久根温世", "中村旺太郎", "筒井俊旭", "竹野世梛", "千田波空斗"],
+          "iiONDO": ["畑駿平", "堀蒼寿", "三村航輝", "宮本琉成", "守本勝倶", "大野遥斗", "三戸琳仁", "髙橋夢人"]}
 KINDS = {"チケット": ["受付開始", "申込締切", "当落発表", "入金締切", "一般発売", "リセール締切", "配席発表"],
          "リリース・グッズ": ["発売日", "配信開始", "受付開始", "販売開始", "予約締切", "販売締切", "特典締切", "応募締切"],
          "応募・企画": ["応募締切", "当選発表"]}
@@ -100,7 +104,7 @@ def list_links(base, paths, group, link_re):
             title = re.sub(r"\s*NEW$", "", title)
             if not title:
                 continue
-            cats = [clean(x) for x in re.findall(r'class="[^"]*(?:label-category|list-tag)[^"]*">(.*?)<', body)]
+            cats = [clean(x) for x in re.findall(r'class="(?:[^"]*(?:label-category|list-tag)[^"]*|tag)">(.*?)<', body)]
             e = out.setdefault(base + href, {"group": group, "title": title, "cats": [], "pub": "-".join(d.groups()) if d else "", "site_tags": []})
             e["cats"] += cats
     return out
@@ -116,6 +120,35 @@ def list_onenonly():
 
 def list_genjibu():
     return list_links("https://genjibu.jp", ("/news/1/", "/news/1/?page=2", "/news/11/"), "原因は自分にある。", r"/news/detail/\d+")
+
+
+def list_buddiis():
+    return list_links("https://buddiis.com", ("/contents/news", "/contents/news/page/2", "/contents/news/ticket"), "BUDDiiS", r"/contents/\d+")
+
+
+def list_icex():
+    return list_links("https://icex.jp", ("/contents/news", "/contents/news/page/2", "/contents/news/ticket"), "ICEx", r"/contents/\d+")
+
+
+def list_sakurashimeji():
+    return list_links("https://sakurashimeji.com", ("/news/1/", "/news/1/?page=2"), "Sakurashimeji", r"/news/detail/\d+")
+
+
+def list_iiondo():
+    """iiONDO は一覧にカテゴリとメンバーのタグが付いている（超特急と同じ作り）"""
+    base, out = "https://iiondo.com", {}
+    for path in ("/news/1/", "/news/1/?page=2", "/news/list/1/4/"):
+        b = re.sub(r"<(script|style).*?</\1>", "", get(base + path), flags=re.S)
+        for href, body in re.findall(r'<a href="(/news/detail/\d+)">(.*?)</a>', b, re.S):
+            cat = re.search(r'class="category">(.*?)<', body, re.S)
+            date = re.search(r'class="date">\s*(\d{4})\.(\d\d)\.(\d\d)', body)
+            tit = re.search(r'class="tit">(.*?)</p>', body, re.S)
+            tags = [clean(t) for t in re.findall(r'class="tag[^"]*">(.*?)<', body)]
+            e = out.setdefault(base + href, {"group": "iiONDO", "title": clean(tit.group(1)) if tit else "", "cats": [], "pub": "", "site_tags": []})
+            e["cats"] += ([clean(cat.group(1))] if cat else []) + [t for t in tags if t not in GROUPS["iiONDO"] and t != "iiONDO"]
+            e["site_tags"] = sorted(set(e["site_tags"]) | {t for t in tags if t in GROUPS["iiONDO"]})
+            if date: e["pub"] = "-".join(date.groups())
+    return out
 
 
 def list_superdragon():
@@ -186,7 +219,7 @@ def skip(e):
     cats = set(c for c in e["cats"] if c)
     if e["group"] == "M!LK" and "sd-milk.com" in e.get("url", ""):
         return bool(cats) and cats <= {"MEDIA"}
-    if cats and cats <= {"MEDIA", "RADIO", "MOVIE", "BIRTHDAY"}:
+    if cats and cats <= {"MEDIA", "RADIO", "TV", "MAGAZINE", "MOVIE", "BIRTHDAY"}:
         return True
     return bool(re.search(r"MOVIE更新|WALLPAPER|BLOG更新|ブログ更新|発送完了|発送について|会員証|メンテナンス|放送決定|掲載決定|オンエア", e["title"]))
 
@@ -232,7 +265,8 @@ def save_page(path, h, data):
     open(path, "w", encoding="utf-8").write(out)
 
 
-SLUG = {"bullettrain.jp": "bt", "sd-milk.com": "mk", "mailivis.jp": "mv", "super-dragon.jp": "sd", "one-n-only.jp": "oo", "genjibu.jp": "gj", "lienel.jp": "ln"}
+SLUG = {"bullettrain.jp": "bt", "sd-milk.com": "mk", "mailivis.jp": "mv", "super-dragon.jp": "sd", "one-n-only.jp": "oo", "genjibu.jp": "gj", "lienel.jp": "ln",
+        "sakurashimeji.com": "ss", "buddiis.com": "bd", "icex.jp": "ic", "iiondo.com": "io"}
 
 
 def slug(url):
@@ -253,7 +287,8 @@ def cmd_check(page, work):
     # 1つのサイトが落ちていても、ほかのサイトの更新は続ける
     sources = (("超特急公式サイト", list_bullettrain), ("M!LK公式サイト", list_milk), ("SUPER★DRAGON公式サイト", list_superdragon),
                ("ONE N' ONLY公式サイト", list_onenonly), ("原因は自分にある。公式サイト", list_genjibu), ("Lienel公式サイト", list_lienel),
-               ("MAILIVIS", list_mailivis))
+               ("Sakurashimeji公式サイト", list_sakurashimeji), ("BUDDiiS公式サイト", list_buddiis), ("ICEx公式サイト", list_icex),
+               ("iiONDO公式サイト", list_iiondo), ("MAILIVIS", list_mailivis))
     for name, fn in sources:
         try:
             listing.update(fn())
@@ -285,6 +320,8 @@ def cmd_check(page, work):
         if k and k.get("hash") == hsh:
             continue
         tags = e["site_tags"]
+        if e["group"] == "iiONDO" and not tags:              # 一覧にタグがないときは詳細ページ冒頭のタグを使う
+            tags = [m for m in GROUPS["iiONDO"] if m in lines[:12]]
         if e["group"] == "超特急" and "bullettrain.jp" in url:  # 詳細ページ冒頭（掲載日より上）にサイトが付けたメンバーのタグがある
             idx = next((i for i, l in enumerate(lines[:12]) if re.fullmatch(r"20\d\d/\d\d/\d\d", l)), 0)
             tags = [m for m in GROUPS["超特急"] if m in lines[:idx]] or [m for m in GROUPS["超特急"] if m in tags]
@@ -360,6 +397,10 @@ CAL = {
     "ONE N' ONLY": ("oo", {"TETTA": "tetta", "REI": "rei", "EIKU": "eiku", "HAYATO": "hayato", "NAOYA": "naoya"}),
     "原因は自分にある。": ("genjibu", {"大倉空人": "okura", "小泉光咲": "koizumi", "桜木雅哉": "sakuragi", "長野凌大": "nagano", "武藤潤": "muto", "杢代和人": "mokudai", "吉澤要人": "yoshizawa"}),
     "Lienel": ("lienel", {"芳賀柊斗": "haga", "近藤駿太": "kondo", "高岡ミロ": "takaoka", "森田璃空": "morita", "武田創世": "takeda", "高桑真之": "takakuwa"}),
+    "Sakurashimeji": ("sakurashimeji", {"田中雅功": "tanaka", "髙田彪我": "takada"}),
+    "BUDDiiS": ("buddiis", {"FUMINORI": "fuminori", "FUMIYA": "fumiya", "KEVIN": "kevin", "MORRIE": "morrie", "SEIYA": "seiya", "SHOOT": "shoot", "SHOW": "show"}),
+    "ICEx": ("icex", {"志賀李玖": "shiga", "山本龍人": "yamamoto", "八神遼介": "yagami", "阿久根温世": "akune", "中村旺太郎": "nakamura", "筒井俊旭": "tsutsui", "竹野世梛": "takeno", "千田波空斗": "chida"}),
+    "iiONDO": ("iiondo", {"畑駿平": "hata", "堀蒼寿": "hori", "三村航輝": "mimura", "宮本琉成": "miyamoto", "守本勝倶": "morimoto", "大野遥斗": "ohno", "三戸琳仁": "sando", "髙橋夢人": "takahashi"}),
 }
 STARTS_K = ("受付開始", "一般発売", "販売開始")
 
