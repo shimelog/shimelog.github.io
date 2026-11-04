@@ -19,9 +19,11 @@ GROUPS = {"超特急": ["カイ", "リョウガ", "タクヤ", "ユーキ", "タ
           "原因は自分にある。": ["大倉空人", "小泉光咲", "桜木雅哉", "長野凌大", "武藤潤", "杢代和人", "吉澤要人"],
           "Lienel": ["芳賀柊斗", "近藤駿太", "高岡ミロ", "森田璃空", "武田創世", "高桑真之"],
           "Sakurashimeji": ["田中雅功", "髙田彪我"],
-          "BUDDiiS": ["FUMINORI", "FUMIYA", "KEVIN", "MORRIE", "SEIYA", "SHOOT", "SHOW"],
+          "BUDDiiS": ["FUMINORI", "KEVIN", "MORRIE", "SEIYA", "SHOW", "TAKUYA", "FUMIYA", "SHOOT"],
           "ICEx": ["志賀李玖", "山本龍人", "八神遼介", "阿久根温世", "中村旺太郎", "筒井俊旭", "竹野世梛", "千田波空斗"],
           "iiONDO": ["畑駿平", "堀蒼寿", "三村航輝", "宮本琉成", "守本勝倶", "大野遥斗", "三戸琳仁", "髙橋夢人"]}
+# 告知で本名など別の表記が使われるメンバー（照合では、どちらかの表記が本文にあればよい）
+ALIASES = {"BUDDiiS": {"SEIYA": ["岡本聖哉"], "SHOW": ["西田祥"]}}
 KINDS = {"チケット": ["受付開始", "申込締切", "当落発表", "入金締切", "一般発売", "リセール締切", "配席発表"],
          "リリース・グッズ": ["発売日", "配信開始", "受付開始", "販売開始", "予約締切", "販売締切", "特典締切", "応募締切"],
          "応募・企画": ["応募締切", "当選発表"]}
@@ -378,7 +380,7 @@ def validate(ev, group, text, tags):
         elif ev["method"] not in text: probs.append(f"「{ev['method']}」の記載が本文にない")
     for m in ev.get("members", []):
         if m not in GROUPS[group]: probs.append(f"メンバー名が不正: {m}")
-        elif m not in tags and m not in text: probs.append(f"メンバー {m} が本文にない")
+        elif m not in tags and m not in text and not any(a in text for a in ALIASES.get(group, {}).get(m, [])): probs.append(f"メンバー {m} が本文にない")
     for q in ev.get("checks", []):
         if norm(q) not in ntext: probs.append(f"照合語句が本文にない: {q}")
     for g in ev.get("tokuten") or []:
@@ -398,7 +400,7 @@ CAL = {
     "原因は自分にある。": ("genjibu", {"大倉空人": "okura", "小泉光咲": "koizumi", "桜木雅哉": "sakuragi", "長野凌大": "nagano", "武藤潤": "muto", "杢代和人": "mokudai", "吉澤要人": "yoshizawa"}),
     "Lienel": ("lienel", {"芳賀柊斗": "haga", "近藤駿太": "kondo", "高岡ミロ": "takaoka", "森田璃空": "morita", "武田創世": "takeda", "高桑真之": "takakuwa"}),
     "Sakurashimeji": ("sakurashimeji", {"田中雅功": "tanaka", "髙田彪我": "takada"}),
-    "BUDDiiS": ("buddiis", {"FUMINORI": "fuminori", "FUMIYA": "fumiya", "KEVIN": "kevin", "MORRIE": "morrie", "SEIYA": "seiya", "SHOOT": "shoot", "SHOW": "show"}),
+    "BUDDiiS": ("buddiis", {"FUMINORI": "fuminori", "KEVIN": "kevin", "MORRIE": "morrie", "SEIYA": "seiya", "SHOW": "show", "TAKUYA": "takuya", "FUMIYA": "fumiya", "SHOOT": "shoot"}),
     "ICEx": ("icex", {"志賀李玖": "shiga", "山本龍人": "yamamoto", "八神遼介": "yagami", "阿久根温世": "akune", "中村旺太郎": "nakamura", "筒井俊旭": "tsutsui", "竹野世梛": "takeno", "千田波空斗": "chida"}),
     "iiONDO": ("iiondo", {"畑駿平": "hata", "堀蒼寿": "hori", "三村航輝": "mimura", "宮本琉成": "miyamoto", "守本勝倶": "morimoto", "大野遥斗": "ohno", "三戸琳仁": "sando", "髙橋夢人": "takahashi"}),
 }
