@@ -1,0 +1,205 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//shimelog//JA
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:しめろぐ｜BUDDiiS（SEIYA）
+X-WR-TIMEZONE:Asia/Tokyo
+X-WR-CALDESC:公式の告知から拾った締切（非公式）。申し
+ 込む前に必ず公式の告知を確認してください。
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:2d4d98dc4a3fd10855a2@shimelog
+DTSTAMP:20261104T042347Z
+DTSTART:20261105T103000Z
+DTEND:20261105T110000Z
+SUMMARY:【当選発表】BUDDiiS 無限大LOVE リリイベ
+DESCRIPTION:『無限大LOVE!!!』リリースイベント CD購入整理
+ 券\n11/7 京都・11/8 愛知 CD購入整理券 番号発表\nイベン
+ ト 11/7(土) みやこめっせ、11/8(日) イオンモール扶桑\nLI
+ NEの通知は届かないのでメッセージ内のバナーから確
+ 認。集合予定時間も同時に案内\n公式の告知：https://bud
+ diis.com/contents/1109419\nしめろぐ（非公式）：https://shimelog
+ .github.io
+URL:https://buddiis.com/contents/1109419
+END:VEVENT
+BEGIN:VEVENT
+UID:5b9102d353b17c076527@shimelog
+DTSTAMP:20261104T042347Z
+DTSTART:20261106T083000Z
+DTEND:20261106T090000Z
+SUMMARY:【当選発表・抽選】BUDDiiS 岡本聖哉 トークショー
+DESCRIPTION:Tokyo Beauty Week 2026 Beauty Meet-up トークショー ご
+ 招待\nBUDDiiSLAND会員限定\nイベント 11/21(土) 都内某所\n
+ 当選者のみメールとマイページで通知。11/8(日)23:59ま
+ でに参加意思確認が必要。繰上当選発表は11/10(火)18:00
+ 以降\n公式の告知：https://buddiis.com/contents/1122025\nしめろ
+ ぐ（非公式）：https://shimelog.github.io
+URL:https://buddiis.com/contents/1122025
+END:VEVENT
+BEGIN:VEVENT
+UID:15e9050779380da69608@shimelog
+DTSTAMP:20261104T042347Z
+DTSTART:20261112T142900Z
+DTEND:20261112T145900Z
+SUMMARY:【応募締切】BUDDiiS 無限大LOVE 配信CP
+DESCRIPTION:「無限大LOVE!!!」配信キャンペーン\n各ストリ
+ ーミングストア 楽曲シェアキャンペーン\nハッシュタ
+ グ2つを付けてシェア投稿＆応募、全員にオフショット
+ 画像A\n公式の告知：https://buddiis.com/contents/1121299\nしめ
+ ろぐ（非公式）：https://shimelog.github.io
+URL:https://buddiis.com/contents/1121299
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【応募締切】BUDDiiS 無限大LOVE 配信CP
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:b50a36a4a459f302c38b@shimelog
+DTSTAMP:20261104T042347Z
+DTSTART:20261117T142900Z
+DTEND:20261117T145900Z
+SUMMARY:【予約締切】BUDDiiS 無限大LOVE DLキャンペーン
+DESCRIPTION:『無限大LOVE!!!』プリオーダー＆ダウンロード
+ キャンペーン\niTunes プリオーダー\nプリオーダーの画
+ 面を保存して応募フォームから応募\n公式の告知：https
+ ://buddiis.com/contents/1121303\nしめろぐ（非公式）：https://sh
+ imelog.github.io
+URL:https://buddiis.com/contents/1121303
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【予約締切】BUDDiiS 無限大LOVE DLキャンペーン
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:386844380ff1fe2f3e46@shimelog
+DTSTAMP:20261104T042347Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:【発売日】BUDDiiS 無限大LOVE!!!
+DESCRIPTION:メジャー2ndシングル『無限大LOVE!!!』\n応援店
+ の対象店舗と特典絵柄は追って案内。特典はなくなり
+ 次第終了\n公式の告知：https://buddiis.com/contents/1123719\nし
+ めろぐ（非公式）：https://shimelog.github.io
+URL:https://buddiis.com/contents/1123719
+END:VEVENT
+BEGIN:VEVENT
+UID:aefa83d6fb8c5548b7be@shimelog
+DTSTAMP:20261104T042347Z
+DTSTART:20261117T143000Z
+DTEND:20261117T150000Z
+SUMMARY:【配信開始】BUDDiiS 無限大LOVE DLキャンペーン
+DESCRIPTION:『無限大LOVE!!!』プリオーダー＆ダウンロード
+ キャンペーン\nシングルダウンロード（iTunes／レコチ
+ ョク／mora）\n順次開始\n公式の告知：https://buddiis.com/con
+ tents/1121303\nしめろぐ（非公式）：https://shimelog.github.io
+URL:https://buddiis.com/contents/1121303
+END:VEVENT
+BEGIN:VEVENT
+UID:c9e6e5d75a3f97b74199@shimelog
+DTSTAMP:20261104T042347Z
+DTSTART:20261119T142900Z
+DTEND:20261119T145900Z
+SUMMARY:【応募締切】BUDDiiS 無限大LOVE 配信CP
+DESCRIPTION:「無限大LOVE!!!」配信キャンペーン\nSpotify Canva
+ sシェアキャンペーン\nCanvasをInstagramストーリーズでシ
+ ェア＆応募、全員にオフショット画像B\n公式の告知：h
+ ttps://buddiis.com/contents/1121299\nしめろぐ（非公式）：https:
+ //shimelog.github.io
+URL:https://buddiis.com/contents/1121299
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【応募締切】BUDDiiS 無限大LOVE 配信CP
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:af16766ae8113546beb7@shimelog
+DTSTAMP:20261104T042347Z
+DTSTART:20261124T142900Z
+DTEND:20261124T145900Z
+SUMMARY:【応募締切・抽選】BUDDiiS 無限大LOVE DLキャンペ
+ ーン
+DESCRIPTION:『無限大LOVE!!!』プリオーダー＆ダウンロード
+ キャンペーン\niTunes／レコチョク／mora\n抽選で計10名に
+ 名前入りメンバー全員直筆サイン入りポスター。先行
+ 配信を含む単曲購入は対象外\n公式の告知：https://buddii
+ s.com/contents/1121303\nしめろぐ（非公式）：https://shimelog.gi
+ thub.io
+URL:https://buddiis.com/contents/1121303
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【応募締切・抽選】BUDDiiS 無限大LOVE DLキャン
+ ペーン
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cad501ef652b7de60380@shimelog
+DTSTAMP:20261104T042347Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:【特典締切】BUDDiiS EBiDAN 15周年BD＆本
+DESCRIPTION:Blu-ray『EBiDAN THE LIVE 2026 15th Anniversary』＆『EBiDA
+ N Visual Dictionary 2027』\nBlu-ray 早期予約特典（選べるグル
+ ープ別トレカ）\n12/1以降も規定数に達するまで先着で
+ 配布。希望グループの対象カートから注文\n公式の告
+ 知：https://buddiis.com/contents/1122935\nしめろぐ（非公式）
+ ：https://shimelog.github.io
+URL:https://buddiis.com/contents/1122935
+END:VEVENT
+BEGIN:VEVENT
+UID:be9d6fe2d89dfd6bfe74@shimelog
+DTSTAMP:20261104T042347Z
+DTSTART:20261215T142900Z
+DTEND:20261215T145900Z
+SUMMARY:【応募締切】BUDDiiS 無限大LOVE 配信CP
+DESCRIPTION:「無限大LOVE!!!」配信キャンペーン\nLINE MUSIC再
+ 生キャンペーン\n再生回数に応じて特典。9\,999回以上
+ は抽選で限定グッズも。10/23リリースの単曲ページか
+ らの再生のみ対象\n公式の告知：https://buddiis.com/contents/
+ 1121299\nしめろぐ（非公式）：https://shimelog.github.io
+URL:https://buddiis.com/contents/1121299
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【応募締切】BUDDiiS 無限大LOVE 配信CP
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:29d0ba5457200650322f@shimelog
+DTSTAMP:20261104T042347Z
+DTSTART:20261221T142900Z
+DTEND:20261221T145900Z
+SUMMARY:【販売締切】BUDDiiS EBiDAN 15周年BD＆本
+DESCRIPTION:Blu-ray『EBiDAN THE LIVE 2026 15th Anniversary』＆『EBiDA
+ N Visual Dictionary 2027』\nソロ表紙風メンバー別アクリル
+ キーホルダーセット（受注生産・税込6\,050円）\n全額
+ 内金で注文する受注生産限定商品\n公式の告知：https://
+ buddiis.com/contents/1122935\nしめろぐ（非公式）：https://shime
+ log.github.io
+URL:https://buddiis.com/contents/1122935
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【販売締切】BUDDiiS EBiDAN 15周年BD＆本
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f18b9df9d717a875a69b@shimelog
+DTSTAMP:20261104T042347Z
+DTSTART;VALUE=DATE:20270210
+DTEND;VALUE=DATE:20270211
+SUMMARY:【発売日】BUDDiiS EBiDAN 15周年BD＆本
+DESCRIPTION:Blu-ray『EBiDAN THE LIVE 2026 15th Anniversary』＆『EBiDA
+ N Visual Dictionary 2027』\n＠Loppi・HMV限定盤 Blu-ray（税込8\,8
+ 00円）／Visual Dictionary（税込4\,950円）\n＠Loppi・HMV店舗
+ ・HMV&BOOKS online限定。両方同時購入でB5クリアファイル
+ （グループ別）\n公式の告知：https://buddiis.com/contents/112
+ 2935\nしめろぐ（非公式）：https://shimelog.github.io
+URL:https://buddiis.com/contents/1122935
+END:VEVENT
+END:VCALENDAR

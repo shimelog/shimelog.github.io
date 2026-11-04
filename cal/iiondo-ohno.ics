@@ -1,0 +1,107 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//shimelog//JA
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:しめろぐ｜iiONDO（大野遥斗）
+X-WR-TIMEZONE:Asia/Tokyo
+X-WR-CALDESC:公式の告知から拾った締切（非公式）。申し
+ 込む前に必ず公式の告知を確認してください。
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:9474ebd0eacfe0c2c56e@shimelog
+DTSTAMP:20261104T042347Z
+DTSTART:20261104T142900Z
+DTEND:20261104T145900Z
+SUMMARY:【販売締切】iiONDO 1st fan meeting 事前通販
+DESCRIPTION:iiONDO 1st fan meeting オフィシャルグッズ・生写
+ 真セット事前通販\nスタダ便\n公演 12/4(金)\n事前通販期
+ 間中でも予定数に達し次第終了。11/30(月)頃までに届く
+ 予定\n公式の告知：https://iiondo.com/news/detail/248\nしめろ
+ ぐ（非公式）：https://shimelog.github.io
+URL:https://iiondo.com/news/detail/248
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【販売締切】iiONDO 1st fan meeting 事前通販
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:140974a99406164179a9@shimelog
+DTSTAMP:20261104T042347Z
+DTSTART:20261107T043000Z
+DTEND:20261107T050000Z
+SUMMARY:【当落発表・抽選】iiONDO 1st Fan Meeting
+DESCRIPTION:iiONDO 1st Fan Meeting\nローソンチケットプレリク
+ エスト先行\n公演 12/4(金) 竹芝ニューピアホール\n当落
+ ・入金期間は11/10(火)23:59まで。メールが届かない場合
+ はマイページで確認\n公式の告知：https://iiondo.com/news/de
+ tail/221\nしめろぐ（非公式）：https://shimelog.github.io
+URL:https://iiondo.com/news/detail/221
+END:VEVENT
+BEGIN:VEVENT
+UID:580c1842c67cf0c8f618@shimelog
+DTSTAMP:20261104T042347Z
+DTSTART:20261110T142900Z
+DTEND:20261110T145900Z
+SUMMARY:【入金締切・抽選】iiONDO 1st Fan Meeting
+DESCRIPTION:iiONDO 1st Fan Meeting\nローソンチケットプレリク
+ エスト先行\n公演 12/4(金) 竹芝ニューピアホール\n公式
+ の告知：https://iiondo.com/news/detail/221\nしめろぐ（非公式
+ ）：https://shimelog.github.io
+URL:https://iiondo.com/news/detail/221
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【入金締切・抽選】iiONDO 1st Fan Meeting
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:b40c6ec706f262e72d42@shimelog
+DTSTAMP:20261104T042347Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:【特典締切】iiONDO EBiDAN 15周年BD＆本
+DESCRIPTION:Blu-ray『EBiDAN THE LIVE 2026 15th Anniversary』＆『EBiDA
+ N Visual Dictionary 2027』\nBlu-ray 早期予約特典（選べるグル
+ ープ別トレカ）\n12/1以降も規定数に達するまで先着で
+ 配布。希望グループの対象カートから注文\n公式の告
+ 知：https://iiondo.com/news/detail/249\nしめろぐ（非公式）：h
+ ttps://shimelog.github.io
+URL:https://iiondo.com/news/detail/249
+END:VEVENT
+BEGIN:VEVENT
+UID:58008c5303a09f57ad95@shimelog
+DTSTAMP:20261104T042347Z
+DTSTART:20261221T142900Z
+DTEND:20261221T145900Z
+SUMMARY:【販売締切】iiONDO EBiDAN 15周年BD＆本
+DESCRIPTION:Blu-ray『EBiDAN THE LIVE 2026 15th Anniversary』＆『EBiDA
+ N Visual Dictionary 2027』\nソロ表紙風メンバー別アクリル
+ キーホルダーセット（受注生産・税込6\,050円）\n全額
+ 内金で注文する受注生産限定商品\n公式の告知：https://
+ iiondo.com/news/detail/249\nしめろぐ（非公式）：https://shimelo
+ g.github.io
+URL:https://iiondo.com/news/detail/249
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【販売締切】iiONDO EBiDAN 15周年BD＆本
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:58f8330f3ceb7069dd7b@shimelog
+DTSTAMP:20261104T042347Z
+DTSTART;VALUE=DATE:20270210
+DTEND;VALUE=DATE:20270211
+SUMMARY:【発売日】iiONDO EBiDAN 15周年BD＆本
+DESCRIPTION:Blu-ray『EBiDAN THE LIVE 2026 15th Anniversary』＆『EBiDA
+ N Visual Dictionary 2027』\n＠Loppi・HMV限定盤 Blu-ray（税込8\,8
+ 00円）／Visual Dictionary（税込4\,950円）\n＠Loppi・HMV店舗
+ ・HMV&BOOKS online限定。両方同時購入でB5クリアファイル
+ （グループ別）\n公式の告知：https://iiondo.com/news/detail/2
+ 49\nしめろぐ（非公式）：https://shimelog.github.io
+URL:https://iiondo.com/news/detail/249
+END:VEVENT
+END:VCALENDAR
