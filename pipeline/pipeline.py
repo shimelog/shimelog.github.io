@@ -8,7 +8,7 @@
 状態（既読の告知とそのハッシュ、掲載中の予定）はすべて PAGE.html の DATA に入っている。
 読み取り（告知本文 → 予定の構造化）はこのスクリプトでは行わない。check と merge の間で別途行う。
 """
-import sys, os, re, json, html, time, hashlib, urllib.request, urllib.error
+import sys, os, re, json, html, time, hashlib, unicodedata, urllib.request, urllib.error
 from datetime import datetime, timedelta, timezone
 
 UA = "Mozilla/5.0 (compatible; oshi-schedule-prototype)"
@@ -346,7 +346,7 @@ Z = str.maketrans("０１２３４５６７８９：／～", "0123456789:/〜")
 
 
 def norm(s):
-    return re.sub(r"\s+", "", s.translate(Z))
+    return re.sub(r"\s+", "", unicodedata.normalize("NFKC", s).translate(Z))
 
 
 def dt_in_source(iso, text, need_time=True):
@@ -484,7 +484,8 @@ def cmd_merge(page, work):
         if url not in ext:
             report["missing"].append(url); continue          # 読み取り結果がない告知は既読にせず、次回また対象にする
         src = open(t["file"], encoding="utf-8").read()
-        text = re.sub(r"\s+", " ", src.split("----- 本文 -----", 1)[1].translate(Z))
+        # 「⽉」「⽇」（部首の字）などの見た目が同じ別の文字は、照合の前にふつうの字にそろえる
+        text = re.sub(r"\s+", " ", unicodedata.normalize("NFKC", src.split("----- 本文 -----", 1)[1]).translate(Z))
         tags = [x.strip() for x in re.search(r"サイトが付けたメンバーのタグ: (.*)", src).group(1).split(",")]
         old_links = {(g["edition"], r["store"]): r["url"] for e in events if e["url"] == url for g in e.get("tokuten") or [] for r in g["rows"] if r.get("url")}
         new = []
