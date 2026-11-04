@@ -476,6 +476,7 @@ def cmd_merge(page, work):
     ext = json.load(open(xp, encoding="utf-8")) if os.path.exists(xp) else {}
     articles = data.get("articles", {})
     events = data["events"]
+    pending = data.get("pending", [])      # 照合できなかった予定。サイトには載せず、持ち主の確認を待つ
     today = now_jst()
     report = {"added": 0, "ng": [], "missing": [], "dropped": []}
     done_urls = set()
@@ -488,7 +489,7 @@ def cmd_merge(page, work):
         text = re.sub(r"\s+", " ", unicodedata.normalize("NFKC", src.split("----- 本文 -----", 1)[1]).translate(Z))
         tags = [x.strip() for x in re.search(r"サイトが付けたメンバーのタグ: (.*)", src).group(1).split(",")]
         old_links = {(g["edition"], r["store"]): r["url"] for e in events if e["url"] == url for g in e.get("tokuten") or [] for r in g["rows"] if r.get("url")}
-        new = []
+        new, held = [], []
         for ev in ext[url].get("events", []):
             probs, fatal = validate(ev, t["group"], text, tags)
             if fatal:
@@ -496,11 +497,16 @@ def cmd_merge(page, work):
             if probs: report["ng"].append(f"{url} {ev.get('kind')} {ev.get('at')}: " + " / ".join(probs))
             o = {"group": t["group"], "cat": ev["cat"], "title": ev["title"], "short": (ev.get("short") or "")[:20], "kind": ev["kind"], "at": ev["at"], "start": ev.get("start") or None,
                  "allday": bool(ev.get("allday")), "method": ev.get("method") if ev.get("method") in ("先着", "抽選") else "", "label": ev.get("label", ""), "event": ev.get("event", ""), "info": ev.get("info", ""),
-                 "note": NG_NOTE if probs else "", "url": url, "members": [m for m in ev.get("members", []) if m in GROUPS[t["group"]]]}
+                 "note": "", "url": url, "members": [m for m in ev.get("members", []) if m in GROUPS[t["group"]]]}
             if ev.get("tokuten"):
                 o["tokuten"] = [{"edition": g["edition"], "rows": [dict({"store": r["store"], "text": r["text"]}, **({"url": old_links[(g["edition"], r["store"])]} if (g["edition"], r["store"]) in old_links else {})) for r in g["rows"]]} for g in ev["tokuten"]]
-            new.append(o)
+            if probs:
+                o["problems"] = probs
+                held.append(o)
+            else:
+                new.append(o)
         events = [e for e in events if e["url"] != url] + new
+        pending = [e for e in pending if e["url"] != url] + held
         report["added"] += len(new)
         done_urls.add(url)
     # 既読の記録を更新（読み取りできなかった告知は記録しない）
@@ -509,22 +515,50 @@ def cmd_merge(page, work):
         articles[url] = {"hash": hsh, "listed": today.strftime("%Y-%m-%d")}
     limit = (today - timedelta(days=KEEP_PAST_DAYS)).strftime("%Y-%m-%dT%H:%M")
     events = sorted((e for e in events if e["at"] >= limit), key=lambda e: (e["at"], e["group"]))
-    live = {e["url"] for e in events}
+    pending = sorted((e for e in pending if e["at"] >= today.strftime("%Y-%m-%dT%H:%M")), key=lambda e: e["at"])
+    live = {e["url"] for e in events} | {e["url"] for e in pending}
     old = (today - timedelta(days=45)).strftime("%Y-%m-%d")
     articles = {u: a for u, a in articles.items() if a.get("listed", "") >= old or u in live}
-    data.update(events=events, articles=articles, groups=GROUPS, fetched_at=today.strftime("%Y-%m-%dT%H:%M"))
+    data.update(events=events, pending=pending, articles=articles, groups=GROUPS, fetched_at=today.strftime("%Y-%m-%dT%H:%M"))
     if PAGE_MARK in h:
         data["cal"] = {g: {"slug": gs, "members": ms} for g, (gs, ms) in CAL.items()}
     save_page(page, h, data)
     if PAGE_MARK in h:
         print(f"カレンダー {write_calendars(page, events, today)}件を書き出しました")
     print(f"読み取った告知 {len(done_urls)}件 / 追加・更新した予定 {report['added']}件 / 掲載中の予定 {len(events)}件 / 取得日時 {data['fetched_at']}")
-    for k, label in (("ng", "照合NG（「要確認」の注記つきで掲載）"), ("dropped", "形式不正で不掲載"), ("missing", "読み取り結果なし（次回に再試行）")):
+    if pending: print(f"確認待ち（照合できずサイトに載せていない予定） {len(pending)}件")
+    for k, label in (("ng", "照合NG（サイトには載せず確認待ちにした）"), ("dropped", "形式不正で不掲載"), ("missing", "読み取り結果なし（次回に再試行）")):
         for x in report[k]: print(f"  {label}: {x}")
     for er in chk.get("errors", []): print("  取得エラー:", er)
 
 
+# ---------- 確認待ちの予定 ----------
+def cmd_pending(page, action="list", idx=None):
+    """pending PAGE                 確認待ちの一覧
+       pending PAGE approve N       N番をサイトに載せる（カレンダーも書き直す）
+       pending PAGE reject N        N番を捨てる"""
+    h, data = load_page(page)
+    pend = data.get("pending", [])
+    if action == "list":
+        for i, e in enumerate(pend):
+            print(f"[{i}] {e['group']} {e['kind']} {e['at']} {e.get('short') or e['title']} | {e.get('label', '')} | {e['url']}")
+            for p in e.get("problems", []): print("     照合NG:", p)
+        if not pend: print("確認待ちはありません")
+        return
+    e = pend.pop(int(idx))
+    e.pop("problems", None)
+    if action == "approve":
+        data["events"] = sorted(data["events"] + [e], key=lambda x: (x["at"], x["group"]))
+    data["pending"] = pend
+    save_page(page, h, data)
+    if action == "approve" and PAGE_MARK in h:
+        write_calendars(page, data["events"], now_jst())
+    print(("掲載しました: " if action == "approve" else "捨てました: ") + f"{e['group']} {e['kind']} {e['at']} {e['url']}")
+
+
 if __name__ == "__main__":
+    if len(sys.argv) >= 3 and sys.argv[1] == "pending":
+        cmd_pending(*sys.argv[2:5]); sys.exit()
     if len(sys.argv) != 4 or sys.argv[1] not in ("check", "merge"):
         sys.exit(__doc__)
     (cmd_check if sys.argv[1] == "check" else cmd_merge)(sys.argv[2], sys.argv[3])
