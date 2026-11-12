@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:fafe091879bf6f289b9e@shimelog
-DTSTAMP:20261112T024806Z
+DTSTAMP:20261112T155110Z
 DTSTART:20261107T010000Z
 DTEND:20261107T013000Z
 SUMMARY:【一般発売】超特急（リョウガ・ユーキ） ハイ
@@ -29,7 +29,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:41cdf8483ddc46a7b614@shimelog
-DTSTAMP:20261112T024806Z
+DTSTAMP:20261112T155110Z
 DTSTART:20261108T123000Z
 DTEND:20261108T130000Z
 SUMMARY:【応募締切・抽選】超特急 エトランス・フィー
@@ -50,7 +50,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fe4722979bb1c19a1bd6@shimelog
-DTSTAMP:20261112T024806Z
+DTSTAMP:20261112T155110Z
 DTSTART:20261108T142900Z
 DTEND:20261108T145900Z
 SUMMARY:【予約締切】超特急 エトランス 夢8盤
@@ -69,7 +69,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:3a02908a8052a1fd384b@shimelog
-DTSTAMP:20261112T024806Z
+DTSTAMP:20261112T155110Z
 DTSTART:20261110T142900Z
 DTEND:20261110T145900Z
 SUMMARY:【販売締切】超特急 超特急×DISH// グッズ
@@ -89,7 +89,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f571e100db2c91cac712@shimelog
-DTSTAMP:20261112T024806Z
+DTSTAMP:20261112T155110Z
 DTSTART:20261111T010000Z
 DTEND:20261111T013000Z
 SUMMARY:【販売開始】超特急 エトランス 夢8盤
@@ -106,7 +106,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ebd7811fb5de1710fd64@shimelog
-DTSTAMP:20261112T024806Z
+DTSTAMP:20261112T155110Z
 DTSTART:20261112T083000Z
 DTEND:20261112T090000Z
 SUMMARY:【当選発表・抽選】超特急 エトランス・フィー
@@ -120,8 +120,26 @@ DESCRIPTION:24th Single『エトランス・フィーバー』リリー
 URL:https://bullettrain.jp/news/detail/110235
 END:VEVENT
 BEGIN:VEVENT
+UID:b76fb7c27e3ccb6810ed@shimelog
+DTSTAMP:20261112T155110Z
+DTSTART:20261113T010000Z
+DTEND:20261113T013000Z
+SUMMARY:【受付開始】超特急 EBiDANオリジナルグッズ
+DESCRIPTION:＠Loppi・HMV限定 EBiDANオリジナルグッズ\n＠Loppi
+ ・HMV 予約受付\n全国のローソン店頭Loppi端末／HMV&BOOKS o
+ nline／HMV店舗（一部店舗を除く）で販売\n公式の告知：
+ https://bullettrain.jp/news/detail/110257\nしめろぐ（非公式）：
+ https://shimelog.github.io
+URL:https://bullettrain.jp/news/detail/110257
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【受付開始】超特急 EBiDANオリジナルグッズ
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:ab290a139e65d64479e1@shimelog
-DTSTAMP:20261112T024806Z
+DTSTAMP:20261112T155110Z
 DTSTART:20261113T043000Z
 DTEND:20261113T050000Z
 SUMMARY:【当落発表・抽選】超特急 超特急×DISH//
@@ -134,8 +152,26 @@ DESCRIPTION:15th Anniversary Special Event「超特急×DISH//」\n『夢
 URL:https://bullettrain.jp/news/detail/110226
 END:VEVENT
 BEGIN:VEVENT
+UID:6526176fd76a4855b46f@shimelog
+DTSTAMP:20261112T155110Z
+DTSTART:20261114T010000Z
+DTEND:20261114T013000Z
+SUMMARY:【一般発売・先着】超特急 ドームライブ Signal
+DESCRIPTION:BULLET TRAIN 1st DOME LIVE Signal\nステージプラン確
+ 定機材席開放一般発売\n公演 11/25(水)・26(木) 東京ドー
+ ム\n1公演につき4枚まで、予定枚数に達し次第終了\n公
+ 式の告知：https://bullettrain.jp/news/detail/110259\nしめろぐ（
+ 非公式）：https://shimelog.github.io
+URL:https://bullettrain.jp/news/detail/110259
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【一般発売・先着】超特急 ドームライブ Signal
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:e52e8b06328eb037a530@shimelog
-DTSTAMP:20261112T024806Z
+DTSTAMP:20261112T155110Z
 DTSTART:20261115T012900Z
 DTEND:20261115T015900Z
 SUMMARY:【予約締切】超特急 エトランス・フィーバー特
@@ -156,7 +192,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2c7af654aff0d0e54fa0@shimelog
-DTSTAMP:20261112T024806Z
+DTSTAMP:20261112T155110Z
 DTSTART:20261116T142900Z
 DTEND:20261116T145900Z
 SUMMARY:【入金締切・抽選】超特急 超特急×DISH//
@@ -173,8 +209,45 @@ TRIGGER:-PT1H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:8c48e1833e46ade2315f@shimelog
+DTSTAMP:20261112T155110Z
+DTSTART:20261116T142900Z
+DTEND:20261116T145900Z
+SUMMARY:【申込締切・抽選】超特急 超ハチャメチャトレ
+ イン
+DESCRIPTION:超特急 15th Anniversary Museum「超ハチャメチャト
+ レイン」\nオフィシャルファンクラブ「夢の青春8きっ
+ ぷ」 前売入場券／限定グッズ付き前売入場券\n開催 202
+ 7/2/6(土)〜3/7(日) hmv museum 全国5会場\n1アカウントにつき
+ 各会場・入場期間ごとに4回まで申込可\n公式の告知：h
+ ttps://bullettrain.jp/news/detail/110244\nしめろぐ（非公式）：h
+ ttps://shimelog.github.io
+URL:https://bullettrain.jp/news/detail/110244
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【申込締切・抽選】超特急 超ハチャメチャト
+ レイン
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:0616a4d16bc7271450fc@shimelog
+DTSTAMP:20261112T155110Z
+DTSTART:20261121T053000Z
+DTEND:20261121T060000Z
+SUMMARY:【当落発表・抽選】超特急 超ハチャメチャトレ
+ イン
+DESCRIPTION:超特急 15th Anniversary Museum「超ハチャメチャト
+ レイン」\nオフィシャルファンクラブ「夢の青春8きっ
+ ぷ」 前売入場券／限定グッズ付き前売入場券\n開催 202
+ 7/2/6(土)〜3/7(日) hmv museum 全国5会場\n15:00より順次\n公式
+ の告知：https://bullettrain.jp/news/detail/110244\nしめろぐ（非
+ 公式）：https://shimelog.github.io
+URL:https://bullettrain.jp/news/detail/110244
+END:VEVENT
+BEGIN:VEVENT
 UID:370ae33bebc01b3d3f51@shimelog
-DTSTAMP:20261112T024806Z
+DTSTAMP:20261112T155110Z
 DTSTART:20261121T123000Z
 DTEND:20261121T130000Z
 SUMMARY:【応募締切・抽選】超特急 エトランス・フィー
@@ -194,8 +267,29 @@ TRIGGER:-PT1H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:9ef50d6e9f344fa8b3d4@shimelog
+DTSTAMP:20261112T155110Z
+DTSTART:20261123T133000Z
+DTEND:20261123T140000Z
+SUMMARY:【入金締切・抽選】超特急 超ハチャメチャトレ
+ イン
+DESCRIPTION:超特急 15th Anniversary Museum「超ハチャメチャト
+ レイン」\nオフィシャルファンクラブ「夢の青春8きっ
+ ぷ」 前売入場券／限定グッズ付き前売入場券\n開催 202
+ 7/2/6(土)〜3/7(日) hmv museum 全国5会場\n公式の告知：https:/
+ /bullettrain.jp/news/detail/110244\nしめろぐ（非公式）：https:/
+ /shimelog.github.io
+URL:https://bullettrain.jp/news/detail/110244
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【入金締切・抽選】超特急 超ハチャメチャト
+ レイン
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:689d16a9e4288e0aab76@shimelog
-DTSTAMP:20261112T024806Z
+DTSTAMP:20261112T155110Z
 DTSTART:20261124T083000Z
 DTEND:20261124T090000Z
 SUMMARY:【当選発表・抽選】超特急 エトランス・フィー
@@ -210,7 +304,7 @@ URL:https://bullettrain.jp/news/detail/110235
 END:VEVENT
 BEGIN:VEVENT
 UID:603ef9be9cd342fccfee@shimelog
-DTSTAMP:20261112T024806Z
+DTSTAMP:20261112T155110Z
 DTSTART:20261125T012900Z
 DTEND:20261125T015900Z
 SUMMARY:【予約締切】超特急 エトランス・フィーバー特
@@ -230,8 +324,50 @@ TRIGGER:-PT1H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:89ce31c94cd78010392a@shimelog
+DTSTAMP:20261112T155110Z
+DTSTART:20261127T110000Z
+DTEND:20261127T113000Z
+SUMMARY:【一般発売・先着】超特急 超ハチャメチャトレ
+ イン
+DESCRIPTION:超特急 15th Anniversary Museum「超ハチャメチャト
+ レイン」\nローソンチケット 一般販売 前売入場券\n開
+ 催 2027/2/6(土)〜3/7(日) hmv museum 全国5会場\n各開催日前日
+ 22:00まで。各回上限数あり、1回の予約で1枚まで\n公式
+ の告知：https://bullettrain.jp/news/detail/110244\nしめろぐ（非
+ 公式）：https://shimelog.github.io
+URL:https://bullettrain.jp/news/detail/110244
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【一般発売・先着】超特急 超ハチャメチャト
+ レイン
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:6a251bd4a95989a1f853@shimelog
+DTSTAMP:20261112T155110Z
+DTSTART:20261127T110000Z
+DTEND:20261127T113000Z
+SUMMARY:【一般発売・先着】超特急 超ハチャメチャトレ
+ イン
+DESCRIPTION:超特急 15th Anniversary Museum「超ハチャメチャト
+ レイン」\nローソンチケット 限定グッズ引換券（前売
+ 入場券購入者専用）\n開催 2027/2/6(土)〜3/7(日) hmv museum 
+ 全国5会場\n前売入場券1枚につき1枚、予定数に達した
+ 場合は終了\n公式の告知：https://bullettrain.jp/news/detail/110
+ 244\nしめろぐ（非公式）：https://shimelog.github.io
+URL:https://bullettrain.jp/news/detail/110244
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【一般発売・先着】超特急 超ハチャメチャト
+ レイン
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:23cf64ec1f1366465178@shimelog
-DTSTAMP:20261112T024806Z
+DTSTAMP:20261112T155110Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:【特典締切】超特急 EBiDAN 15周年BD＆本
@@ -245,7 +381,7 @@ URL:https://bullettrain.jp/news/detail/110242
 END:VEVENT
 BEGIN:VEVENT
 UID:c6f63db5161954a6d583@shimelog
-DTSTAMP:20261112T024806Z
+DTSTAMP:20261112T155110Z
 DTSTART:20261130T123000Z
 DTEND:20261130T130000Z
 SUMMARY:【応募締切・抽選】超特急 エトランス・フィー
@@ -266,7 +402,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ea14591c0c9061e26880@shimelog
-DTSTAMP:20261112T024806Z
+DTSTAMP:20261112T155110Z
 DTSTART:20261202T083000Z
 DTEND:20261202T090000Z
 SUMMARY:【当選発表・抽選】超特急 エトランス・フィー
@@ -280,8 +416,29 @@ DESCRIPTION:24th Single『エトランス・フィーバー』リリー
 URL:https://bullettrain.jp/news/detail/110235
 END:VEVENT
 BEGIN:VEVENT
+UID:49a20a6a46ec35e3fa57@shimelog
+DTSTAMP:20261112T155110Z
+DTSTART:20261202T123000Z
+DTEND:20261202T130000Z
+SUMMARY:【申込締切・先着】超特急 超ハチャメチャトレ
+ イン
+DESCRIPTION:超特急 15th Anniversary Museum「超ハチャメチャト
+ レイン」\nローソンチケット 限定グッズ引換券（前売
+ 入場券購入者専用）\n開催 2027/2/6(土)〜3/7(日) hmv museum 
+ 全国5会場\n前売入場券1枚につき1枚、予定数に達した
+ 場合は終了\n公式の告知：https://bullettrain.jp/news/detail/110
+ 244\nしめろぐ（非公式）：https://shimelog.github.io
+URL:https://bullettrain.jp/news/detail/110244
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【申込締切・先着】超特急 超ハチャメチャト
+ レイン
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:3c5f1c24db26f7123932@shimelog
-DTSTAMP:20261112T024806Z
+DTSTAMP:20261112T155110Z
 DTSTART:20261203T012900Z
 DTEND:20261203T015900Z
 SUMMARY:【予約締切】超特急 エトランス・フィーバー特
@@ -301,8 +458,26 @@ TRIGGER:-PT1H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:d3dea11c2a324c6b5d60@shimelog
+DTSTAMP:20261112T155110Z
+DTSTART:20261207T142900Z
+DTEND:20261207T145900Z
+SUMMARY:【予約締切】超特急 EBiDANオリジナルグッズ
+DESCRIPTION:＠Loppi・HMV限定 EBiDANオリジナルグッズ\n＠Loppi
+ ・HMV 予約受付\n全国のローソン店頭Loppi端末／HMV&BOOKS o
+ nline／HMV店舗（一部店舗を除く）で販売\n公式の告知：
+ https://bullettrain.jp/news/detail/110257\nしめろぐ（非公式）：
+ https://shimelog.github.io
+URL:https://bullettrain.jp/news/detail/110257
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【予約締切】超特急 EBiDANオリジナルグッズ
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:2a3d34256e4f0f96250b@shimelog
-DTSTAMP:20261112T024806Z
+DTSTAMP:20261112T155110Z
 DTSTART:20261210T123000Z
 DTEND:20261210T130000Z
 SUMMARY:【応募締切・抽選】超特急 エトランス・フィー
@@ -323,7 +498,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:0f771d322173603c96a9@shimelog
-DTSTAMP:20261112T024806Z
+DTSTAMP:20261112T155110Z
 DTSTART:20261214T083000Z
 DTEND:20261214T090000Z
 SUMMARY:【当選発表・抽選】超特急 エトランス・フィー
@@ -338,7 +513,7 @@ URL:https://bullettrain.jp/news/detail/110235
 END:VEVENT
 BEGIN:VEVENT
 UID:7084ece9458cef42bc31@shimelog
-DTSTAMP:20261112T024806Z
+DTSTAMP:20261112T155110Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:【発売日】超特急 エトランス・フィーバー
@@ -352,7 +527,7 @@ URL:https://bullettrain.jp/news/detail/110198
 END:VEVENT
 BEGIN:VEVENT
 UID:30e6f9da1e66466d69e2@shimelog
-DTSTAMP:20261112T024806Z
+DTSTAMP:20261112T155110Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:【発売日】超特急 エトランス 夢8盤
@@ -366,7 +541,7 @@ URL:https://bullettrain.jp/news/detail/110239
 END:VEVENT
 BEGIN:VEVENT
 UID:c02036cdab439770b117@shimelog
-DTSTAMP:20261112T024806Z
+DTSTAMP:20261112T155110Z
 DTSTART:20261221T142900Z
 DTEND:20261221T145900Z
 SUMMARY:【販売締切】超特急 EBiDAN 15周年BD＆本
@@ -385,7 +560,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:b6efb83e1e15fa9d2907@shimelog
-DTSTAMP:20261112T024806Z
+DTSTAMP:20261112T155110Z
 DTSTART;VALUE=DATE:20270210
 DTEND;VALUE=DATE:20270211
 SUMMARY:【発売日】超特急 EBiDAN 15周年BD＆本
@@ -399,7 +574,7 @@ URL:https://bullettrain.jp/news/detail/110242
 END:VEVENT
 BEGIN:VEVENT
 UID:bf16f685c8123cd3c6c2@shimelog
-DTSTAMP:20261112T024806Z
+DTSTAMP:20261112T155110Z
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:【発売日】超特急 EBiDANくじ vol.3
@@ -408,5 +583,27 @@ DESCRIPTION:EBiDANくじ vol.3\n1回790円（税込）、ローソン／H
  告知：https://bullettrain.jp/news/detail/110255\nしめろぐ（非公
  式）：https://shimelog.github.io
 URL:https://bullettrain.jp/news/detail/110255
+END:VEVENT
+BEGIN:VEVENT
+UID:2c2de5eccf175189c2a3@shimelog
+DTSTAMP:20261112T155110Z
+DTSTART:20270309T142900Z
+DTEND:20270309T145900Z
+SUMMARY:【応募締切・抽選】超特急 超ハチャメチャトレ
+ イン
+DESCRIPTION:超特急 15th Anniversary Museum「超ハチャメチャト
+ レイン」\n前売入場券 応募抽選プレゼントキャンペー
+ ン\n開催 2027/2/6(土)〜3/7(日) hmv museum 全国5会場\nローソ
+ ンチケットで前売入場券を購入しエントリー。抽選で
+ 計18名に直筆サイン・宛名入り展示パネル、当選発表
+ は2027年4月上旬以降\n公式の告知：https://bullettrain.jp/news
+ /detail/110244\nしめろぐ（非公式）：https://shimelog.github.io
+URL:https://bullettrain.jp/news/detail/110244
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:【応募締切・抽選】超特急 超ハチャメチャト
+ レイン
+TRIGGER:-PT1H
+END:VALARM
 END:VEVENT
 END:VCALENDAR
