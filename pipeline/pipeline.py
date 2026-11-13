@@ -487,6 +487,8 @@ def cmd_merge(page, work):
         src = open(t["file"], encoding="utf-8").read()
         # 「⽉」「⽇」（部首の字）などの見た目が同じ別の文字は、照合の前にふつうの字にそろえる
         text = re.sub(r"\s+", " ", unicodedata.normalize("NFKC", src.split("----- 本文 -----", 1)[1]).translate(Z))
+        # 「2026 年 11 月 13 日」のように数字と年月日の間に空白がある書き方もそろえる
+        text = re.sub(r"(?<=\d) (?=[年月日時:/])|(?<=[年月日/:]) (?=\d)", "", text)
         tags = [x.strip() for x in re.search(r"サイトが付けたメンバーのタグ: (.*)", src).group(1).split(",")]
         old_links = {(g["edition"], r["store"]): r["url"] for e in events if e["url"] == url for g in e.get("tokuten") or [] for r in g["rows"] if r.get("url")}
         new, held = [], []
