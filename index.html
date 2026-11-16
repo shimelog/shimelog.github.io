@@ -48,6 +48,14 @@ header.top p{margin:0;font-size:.75rem;color:var(--sub)}
 /* いちばん近い締切 */
 .unofficial{margin:14px 0 0;padding:10px 14px;border:1.5px solid var(--ink);border-radius:12px;font-size:.8125rem;line-height:1.6}
 .unofficial strong{display:inline-block;background:var(--ink);color:var(--bg);border-radius:6px;padding:0 8px;margin-right:8px;font-weight:900}
+/* グループ別URLで来た人向けのカレンダー登録の呼びかけ */
+.cta{margin:16px 0 0;padding:16px;border-radius:14px;background:var(--surface);border:2px solid var(--brand)}
+.cta h2{font-size:1rem;font-weight:900;margin:0 0 4px}
+.cta p{font-size:.8125rem;color:var(--sub);margin:0 0 12px;line-height:1.6}
+.cta .acts{display:flex;flex-wrap:wrap;gap:8px}
+.cta .acts a{display:inline-flex;align-items:center;justify-content:center;flex:1 1 140px;min-height:44px;padding:8px 14px;border-radius:999px;font-weight:700;font-size:.875rem;text-decoration:none;background:var(--brand);color:#fff}
+.cta .acts a.sub{background:transparent;color:var(--brand);border:1.5px solid var(--brand)}
+.cta .more{display:inline-block;margin-top:10px;font-size:.75rem;color:var(--sub);background:none;border:0;padding:0;text-decoration:underline;cursor:pointer}
 .next{margin:24px 0 24px}
 .next .lead{font-size:.875rem;color:var(--sub);margin:0}
 .next .count{font-weight:900;font-size:clamp(2.75rem,15vw,5rem);line-height:1.05;margin:2px 0 10px;color:var(--hot);letter-spacing:-.01em;font-feature-settings:"palt"}
@@ -146,6 +154,8 @@ footer p{margin:0 0 6px}
     <p>試作版</p>
   </header>
   <p class="unofficial"><strong>非公式</strong>ファンが個人で作っている試作です。掲載している各グループ・所属事務所とは関係ありません。申し込む前に、必ず公式の告知を確認してください。</p>
+
+  <section class="cta" id="cta" hidden></section>
 
   <section class="post" id="post" hidden>
     <h2>今日のまとめ投稿</h2>
@@ -271,6 +281,25 @@ function toku(e){
   return `<details class="toku" data-k="${esc(e.key)}"${state.open.has(e.key) ? " open" : ""}><summary>買う場所と特典（${n}か所）</summary>` +
     e.tokuten.map(g => `<h4>${esc(g.edition)}</h4><dl>` + g.rows.map(r => `<div><dt>${esc(r.store)}</dt><dd>${esc(r.text)}${r.url ? `<br><a href="${esc(r.url)}" target="_blank" rel="noopener">この店の商品ページを見る</a>` : ""}</dd></div>`).join("") + `</dl>`).join("") +
     `</details>`;
+}
+
+// グループ別URL（?g=）で来た人には、そのグループ全員分のカレンダー登録をいちばん上に出す
+function renderCta(){
+  const box = document.getElementById("cta");
+  if (!gName || !CAL[gName]) return;
+  const host = location.host || "shimelog.github.io";
+  const f = CAL[gName].slug;
+  const wc = "webcal://" + host + "/cal/" + f + ".ics";
+  const g = "https://calendar.google.com/calendar/render?cid=" + encodeURIComponent(wc);
+  box.innerHTML = `<h2>${esc(gName)}の締切を、自分のカレンダーに</h2>
+    <p>押すだけで登録できます。新しい申込・入金・先着の締切も自動で追加されます（無料）。</p>
+    <div class="acts"><a href="${esc(g)}" target="_blank" rel="noopener" data-gc="cta-google-${esc(f)}">Googleカレンダー</a><a class="sub" href="${esc(wc)}" data-gc="cta-iphone-${esc(f)}">iPhoneカレンダー</a></div>
+    <button type="button" class="more" id="ctaMore">メンバーを選んで登録する</button>`;
+  box.hidden = false;
+  document.getElementById("ctaMore").addEventListener("click", () => {
+    const o = document.getElementById("oshi"); o.open = true; document.getElementById("cal").open = true;
+    o.scrollIntoView({ behavior: "smooth", block: "start" });
+  });
 }
 
 function renderCal(){
@@ -432,6 +461,7 @@ document.getElementById("postCopy").onclick = () => {
 window.addEventListener("hashchange", renderPost);
 renderPost();
 
+renderCta();
 renderOshi();
 render();
 setInterval(() => { renderOshi(); render(); }, 30000);
