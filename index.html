@@ -291,8 +291,8 @@ function renderCta(){
   const f = CAL[gName].slug;
   const wc = "webcal://" + host + "/cal/" + f + ".ics";
   const g = "https://calendar.google.com/calendar/render?cid=" + encodeURIComponent(wc);
-  box.innerHTML = `<h2>${esc(gName)}の締切を、自分のカレンダーに</h2>
-    <p>押すだけで登録できます。新しい申込・入金・先着の締切も自動で追加されます（無料）。</p>
+  box.innerHTML = `<h2>${esc(gName)}の締切を、自分のカレンダーに📅</h2>
+    <p>自分の推しだけの締切を選択したい場合は<br>「メンバーを選んで登録する」からカスタムできます。</p>
     <div class="acts"><a href="${esc(g)}" target="_blank" rel="noopener" data-gc="cta-google-${esc(f)}">Googleカレンダー</a><a class="sub" href="${esc(wc)}" data-gc="cta-iphone-${esc(f)}">iPhoneカレンダー</a></div>
     <button type="button" class="more" id="ctaMore">メンバーを選んで登録する</button>`;
   box.hidden = false;
